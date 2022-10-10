@@ -1,6 +1,6 @@
 
 
-name: Get latest Elia unavailibilities data
+name: Get latest data
 on:
   schedule:
     # Runs every 6 hours
