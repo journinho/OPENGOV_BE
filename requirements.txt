@@ -1,4 +1,3 @@
 pandas
 datetime
-os
 requests
