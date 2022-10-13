@@ -23,7 +23,7 @@ faillissementen_per_maand.rename(columns={'MS_COUNTOF_BANKRUPTCIES':'Aantal fail
 # Make 'Jaar-Maand' to index:
 faillissementen_per_maand=faillissementen_per_maand.set_index('Jaar-Maand')
 # Export data to .csv-file:
-faillissementen_per_maand.to_csv('../data/data_bewerkt/economy/faillissementen_per_maand.csv')
+faillissementen_per_maand.to_csv('data/data_bewerkt/economy/faillissementen_per_maand.csv')
   
 
 

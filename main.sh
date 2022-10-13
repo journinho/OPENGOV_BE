@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for py_file in $(find ./py_folder -name *.py)
+find ./py_folder -name *.py -print0 | while read -d $'\0' py_file
 do
-    python $py_file
+    python "$py_file"
 done
