@@ -1,7 +1,10 @@
 import pandas as pd
 import datetime
 import os
+import sys
 import requests
+import gzip
+
 
 outputPath = "data/data_bewerkt/energy/"
 sourcePath = "data/data_clean/energy/"
@@ -13,23 +16,40 @@ if not os.path.exists(sourcePath):
     print("Making directory", sourcePath)
     os.makedirs(sourcePath)
 
+
+def downloadFileAsGzip(url: str, fileName: str):
+    """Download a file from url and save it as a gzipped file
+
+    :param url: url to download the file from
+    :param fileName: filename to give the downloaded file
+    """
+    try:
+        r = requests.get(url, allow_redirects=True)
+    except Exception as e:
+        print(f"Downloading {fileName} failed: ", e)
+        sys.exit(1)
+    try:
+        with gzip.open(f"{sourcePath}{fileName}.gz", 'wb') as f:
+            f.write(r.content)
+    except Exception as e:
+        print(f"Saving file {fileName} failed: ", e)
+        sys.exit(1)
+
+
 # Download file and store in sourcePath
 url = "https://opendata.elia.be/explore/dataset/ods031/download/?format=csv&timezone=Europe/Brussels&lang=nl&uselabelsforheader=true&csvseparator=%3B"
 fileName = "ods031.csv"
-r = requests.get(url, allow_redirects=True)
-with open(f"{sourcePath}{fileName}", 'wb') as f:
-    f.write(r.content)
+downloadFileAsGzip(url, fileName)
+# Read file as dataframe
+dfWind = pd.read_csv(f"{sourcePath}{fileName}.gz", sep=";", compression="gzip")
 
 # Download file and store in sourcePath
 url = "https://opendata.elia.be/explore/dataset/ods032/download/?format=csv&timezone=Europe/Brussels&lang=nl&uselabelsforheader=true&csvseparator=%3B"
 fileName = "ods032.csv"
-r = requests.get(url, allow_redirects=True)
-with open(f"{sourcePath}{fileName}", 'wb') as f:
-    f.write(r.content)
+downloadFileAsGzip(url, fileName)
+# Read file as dataframe
+dfSolar = pd.read_csv(f"{sourcePath}{fileName}.gz", sep=";", compression="gzip")
 
-# Download file and save in sourcePath
-dfWind = pd.read_csv(f"{sourcePath}ods031.csv", sep=";")
-dfSolar = pd.read_csv(f"{sourcePath}ods032.csv", sep=";")
 
 # Drop columns we do not use
 dfWind.drop(["offshoreonshore", "gridconnectiontype", "mostrecentforecast", "mostrecentconfidence10", "mostrecentconfidence90", "dayahead11hforecast", "dayahead11hconfidence10", "dayahead11hconfidence90", "dayaheadforecast", "dayaheadconfidence10", "dayaheadconfidence90", "weekaheadforecast", "weekaheadconfidence10", "weekaheadconfidence90", "monitoredcapacity", "loadfactor", "decrementalbidid"], axis=1, inplace=True)
