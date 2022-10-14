@@ -1,3 +1,4 @@
 pandas
 datetime
 requests
+eurostat
