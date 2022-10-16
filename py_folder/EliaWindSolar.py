@@ -17,11 +17,12 @@ if not os.path.exists(sourcePath):
     os.makedirs(sourcePath)
 
 
-def downloadFileAsGzip(url: str, fileName: str):
-    """Download a file from url and save it as a gzipped file
+def downloadFile(url: str, fileName: str, asZipped: bool = True):
+    """Download a file from url and save it, optionally as a gzipped file.
 
     :param url: url to download the file from
     :param fileName: filename to give the downloaded file
+    :param asZipped: save it in gzipped form
     """
     try:
         r = requests.get(url, allow_redirects=True)
@@ -29,8 +30,12 @@ def downloadFileAsGzip(url: str, fileName: str):
         print(f"Downloading {fileName} failed: ", e)
         sys.exit(1)
     try:
-        with gzip.open(f"{sourcePath}{fileName}.gz", 'wb') as f:
-            f.write(r.content)
+        if asZipped:
+            with gzip.open(f"{sourcePath}{fileName}.gz", 'wb') as f:
+                f.write(r.content)
+        else:
+            with open(f"{sourcePath}{fileName}", 'wb') as f:
+                f.write(r.content)
     except Exception as e:
         print(f"Saving file {fileName} failed: ", e)
         sys.exit(1)
@@ -39,14 +44,14 @@ def downloadFileAsGzip(url: str, fileName: str):
 # Download file and store in sourcePath
 url = "https://opendata.elia.be/explore/dataset/ods031/download/?format=csv&timezone=Europe/Brussels&lang=nl&uselabelsforheader=true&csvseparator=%3B"
 fileName = "ods031.csv"
-downloadFileAsGzip(url, fileName)
+downloadFile(url, fileName, True)
 # Read file as dataframe
 dfWind = pd.read_csv(f"{sourcePath}{fileName}.gz", sep=";", compression="gzip")
 
 # Download file and store in sourcePath
 url = "https://opendata.elia.be/explore/dataset/ods032/download/?format=csv&timezone=Europe/Brussels&lang=nl&uselabelsforheader=true&csvseparator=%3B"
 fileName = "ods032.csv"
-downloadFileAsGzip(url, fileName)
+downloadFile(url, fileName, True)
 # Read file as dataframe
 dfSolar = pd.read_csv(f"{sourcePath}{fileName}.gz", sep=";", compression="gzip")
 

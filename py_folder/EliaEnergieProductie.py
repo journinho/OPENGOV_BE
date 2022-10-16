@@ -17,11 +17,12 @@ if not os.path.exists(sourcePath):
     os.makedirs(sourcePath)
 
 
-def downloadFileAsGzip(url: str, fileName: str):
-    """Download a file from url and save it as a gzipped file
+def downloadFile(url: str, fileName: str, asZipped: bool = True):
+    """Download a file from url and save it, optionally as a gzipped file.
 
     :param url: url to download the file from
     :param fileName: filename to give the downloaded file
+    :param asZipped: save it in gzipped form
     """
     try:
         r = requests.get(url, allow_redirects=True)
@@ -29,8 +30,12 @@ def downloadFileAsGzip(url: str, fileName: str):
         print(f"Downloading {fileName} failed: ", e)
         sys.exit(1)
     try:
-        with gzip.open(f"{sourcePath}{fileName}.gz", 'wb') as f:
-            f.write(r.content)
+        if asZipped:
+            with gzip.open(f"{sourcePath}{fileName}.gz", 'wb') as f:
+                f.write(r.content)
+        else:
+            with open(f"{sourcePath}{fileName}", 'wb') as f:
+                f.write(r.content)
     except Exception as e:
         print(f"Saving file {fileName} failed: ", e)
         sys.exit(1)
@@ -39,7 +44,7 @@ def downloadFileAsGzip(url: str, fileName: str):
 # Download file and store in sourcePath
 url = "https://opendata.elia.be/explore/dataset/ods033/download/?format=csv&timezone=Europe/Brussels&lang=nl&use_labels_for_header=true&csv_separator=%3B"
 fileName = "ods033.csv"
-downloadFileAsGzip(url, fileName)
+downloadFile(url, fileName, True)
 
 
 # Replace Fuel codes with these human readable names
