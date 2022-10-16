@@ -26,7 +26,7 @@ landcodes = list(landcodes_EU.keys())
 code = 'PRC_HICP_MANR'
 #create a dataframe with the indicator. 
 df = eurostat.get_data_df(code)
-df.to_csv('{sourcePath}PRC_HICP_MANR.csv')
+df.to_csv(f'{sourcePath}PRC_HICP_MANR.csv')
 # select only the total inflation for the EU27 countries
 inflatie_eu = df.loc[df['coicop'] == 'CP00']
 
@@ -50,7 +50,7 @@ plot_data = plot_data.loc[landcodes]
 plot_data.rename(index=landcodes_EU, inplace=True)
 
 # export the data to a csv file
-plot_data.to_csv('{outputPath}inflatie_eu.csv')
+plot_data.to_csv(f'{outputPath}inflatie_eu.csv')
 
 # make new dataframe inflatie_bar where the index is the country name and the last column is the inflation rate of the last month. If value is NaN, then the value of the previous month is used
 inflatie_bar = pd.DataFrame()
