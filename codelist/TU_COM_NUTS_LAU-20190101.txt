@@ -1,0 +1,746 @@
+﻿CD_LAU|CD_MUNTY_REFNIS|TX_DESCR_DE|TX_DESCR_EN|TX_DESCR_FR|TX_DESCR_NL|DT_VLDT_STRT|DT_VLDT_STOP|CD_LVL_SUP|CD_LVL
+BE1|04000|Region Brüssel-Hauptstadt|Brussels-Capital region|Région de Bruxelles-Capitale|Brussels Hoofdstedelijk Gewest|1900-01-01|9999-12-31|-|1
+BE2|02000|Vlaams Gewest|Flanders region|Région flamande|Vlaams Gewest|1900-01-01|9999-12-31|-|1
+BE3|03000|Region wallonne|Walloon region|Région wallonne|Waals Gewest|1900-01-01|9999-12-31|-|1
+BE10|-|NA|NA|NA|NA|1900-01-01|9999-12-31|BE1|2
+BE21|10000|Provincie Antwerpen|Province of Antwerpen|Province d’Anvers|Provincie Antwerpen|1900-01-01|9999-12-31|BE2|2
+BE22|70000|Provincie Limburg|Province of Limburg|Province de Limbourg|Provincie Limburg|1900-01-01|9999-12-31|BE2|2
+BE23|40000|Provincie Oost-Vlaanderen|Province of Oost-Vlanderen|Province de Flandre orientale|Provincie Oost-Vlaanderen|1900-01-01|9999-12-31|BE2|2
+BE24|20001|Provincie Vlaams Brabant|Province of Vlaams-Brabant|Province de Brabant flamand|Provincie Vlaams-Brabant|1900-01-01|9999-12-31|BE2|2
+BE25|30000|Provincie West-Vlaanderen|Province of West-Vlanderen|Province de Flandre occidentale|Provincie West-Vlaanderen|1900-01-01|9999-12-31|BE2|2
+BE31|20002|Province de Brabant wallon|Province of Brabant Wallon|Province de Brabant wallon|Provincie Waals-Brabant|1900-01-01|9999-12-31|BE3|2
+BE32|50000|Province de Hainaut|Province of Hainaut|Province de Hainaut|Provincie Henegouwen|1900-01-01|9999-12-31|BE3|2
+BE33|60000|Province de Liège|Province of Liège|Province de Liège|Provincie Luik|1900-01-01|9999-12-31|BE3|2
+BE34|80000|Province de Luxembourg|Province of Luxembourg|Province de Luxembourg|Provincie Luxemburg|1900-01-01|9999-12-31|BE3|2
+BE35|90000|Province de Namur|Province of Namur|Province de Namur|Provincie Namen|1900-01-01|9999-12-31|BE3|2
+BE100|21000|Bezirk Bruxelles-Capitale|District of Bruxelles-Capitale|Arrondissement de Bruxelles-Capitale|Arrondissement Brussel-Hoofdstad|1900-01-01|9999-12-31|BE10|3
+BE211|11000|Bezirk Antwerpen|District of Antwerpen|Arrondissement d’Anvers|Arrondissement Antwerpen|1900-01-01|9999-12-31|BE21|3
+BE212|12000|Bezirk Mechelen|District of Mechelen|Arrondissement de Malines|Arrondissement Mechelen|1900-01-01|9999-12-31|BE21|3
+BE213|13000|Bezirk Turnhout|District of Turnhout|Arrondissement de Turnhout|Arrondissement Turnhout|1900-01-01|9999-12-31|BE21|3
+BE221|71000|Bezirk Hasselt|District of Hasselt|Arrondissement de Hasselt|Arrondissement Hasselt|1900-01-01|2019-01-01|BE22|3
+BE222|72000|Bezirk Maaseik|District of Maaseik|Arrondissement de Maaseik|Arrondissement Maaseik|1900-01-01|2019-01-01|BE22|3
+BE223|73000|Bezirk Tongeren|District of Tongeren|Arrondissement de Tongres|Arrondissement Tongeren|1900-01-01|9999-12-31|BE22|3
+BE231|41000|Bezirk Aalst|District of Aalst|Arrondissement d’Alost|Arrondissement Aalst|1900-01-01|9999-12-31|BE23|3
+BE232|42000|Bezirk Dendermonde|District of Dendermonde|Arrondissement de Termonde|Arrondissement Dendermonde|1900-01-01|9999-12-31|BE23|3
+BE233|43000|Bezirk Eeklo|District of Eeklo|Arrondissement d’Eeklo|Arrondissement Eeklo|1900-01-01|9999-12-31|BE23|3
+BE234|44000|Bezirk Gent|District of Gent|Arrondissement de Gand|Arrondissement Gent|1900-01-01|9999-12-31|BE23|3
+BE235|45000|Bezirk Oudenaarde|District of Oudenaarde|Arrondissement d’Audenarde|Arrondissement Oudenaarde|1900-01-01|9999-12-31|BE23|3
+BE236|46000|Bezirk Sint-Niklaas|District of Sint-Niklaas|Arrondissement de Saint-Nicolas|Arrondissement Sint-Niklaas|1900-01-01|9999-12-31|BE23|3
+BE241|23000|Bezirk Halle-Vilvoorde|District of Halle-Vilvoorde|Arrondissement de Hal-Vilvorde|Arrondissement Halle-Vilvoorde|1900-01-01|9999-12-31|BE24|3
+BE242|24000|Bezirk Leuven|District of Leuven|Arrondissement de Louvain|Arrondissement Leuven|1900-01-01|9999-12-31|BE24|3
+BE251|31000|Bezirk Brugge|District of Brugge|Arrondissement de Bruges|Arrondissement Brugge|1900-01-01|9999-12-31|BE25|3
+BE252|32000|Bezirk Diksmuide|District of Diksmuide|Arrondissement de Dixmude|Arrondissement Diksmuide|1900-01-01|9999-12-31|BE25|3
+BE253|33000|Bezirk Ieper|District of Ieper|Arrondissement d’Ypres|Arrondissement Ieper|1900-01-01|9999-12-31|BE25|3
+BE254|34000|Bezirk Kortrijk|District of Kortrijk|Arrondissement de Courtrai|Arrondissement Kortrijk|1900-01-01|9999-12-31|BE25|3
+BE255|35000|Bezirk Oostende|District of Oostende|Arrondissement d’Ostende|Arrondissement Oostende|1900-01-01|9999-12-31|BE25|3
+BE256|36000|Bezirk Roeselare|District of Roeselare|Arrondissement de Roulers|Arrondissement Roeselare|1900-01-01|9999-12-31|BE25|3
+BE257|37000|Bezirk Tielt|District of Tielt|Arrondissement de Tielt|Arrondissement Tielt|1900-01-01|9999-12-31|BE25|3
+BE258|38000|Bezirk Veurne|District of Veurne|Arrondissement de Furnes|Arrondissement Veurne|1900-01-01|9999-12-31|BE25|3
+BE310|25000|Bezirk Nivelles|District of Nivelles|Arrondissement de Nivelles|Arrondissement Nijvel|1900-01-01|9999-12-31|BE31|3
+BE321|51000|Bezirk d’Ath|District of d’Ath|Arrondissement d’Ath|Arrondissement Aat|1900-01-01|2019-01-01|BE32|3
+BE322|52000|Bezirk Charleroi|District of Charleroi|Arrondissement de Charleroi|Arrondissement Charleroi|1900-01-01|2019-01-01|BE32|3
+BE323|53000|Bezirk Mons|District of Mons|Arrondissement de Mons|Arrondissement Bergen|1900-01-01|9999-12-31|BE32|3
+BE324|54000|Bezirk Mouscron|District of Mouscron|Arrondissement de Mouscron|Arrondissement Moeskroen|1900-01-01|2019-01-01|BE32|3
+BE325|55000|Bezirk Soignies|District of Soignies|Arrondissement de Soignies|Arrondissement Zinnik|1900-01-01|2019-01-01|BE32|3
+BE326|56000|Bezirk Thuin|District of Thuin|Arrondissement de Thuin|Arrondissement Thuin|1900-01-01|2019-01-01|BE32|3
+BE327|57000|Bezirk Tournai|District of Tournai|Arrondissement de Tournai|Arrondissement Doornik|1900-01-01|2019-01-01|BE32|3
+BE331|61000|Bezirk Huy|District of Huy|Arrondissement de Huy|Arrondissement Hoei|1900-01-01|9999-12-31|BE33|3
+BE332|62000|Bezirk Liège|District of Liège|Arrondissement de Liège|Arrondissement Luik|1900-01-01|9999-12-31|BE33|3
+BE334|64000|Bezirk Waremme|District of Waremme|Arrondissement de Waremme|Arrondissement Borgworm|1900-01-01|9999-12-31|BE33|3
+BE335|63000|Bezirk Verviers - Französischsprachige Gemeinden|District of Verviers - French speaking municipalities|Arrondissement de Verviers - Communes francophones|Arrondissement Verviers - Franstalige gemeenten|1900-01-01|9999-12-31|BE33|3
+BE336|63000|Bezirk Verviers - Deutschsprachige Gemeinden|District of Verviers - German speaking municipalities|Arrondissement de Verviers - Communes germanophones|Arrondissement Verviers - Duitstalige gemeenten|1900-01-01|9999-12-31|BE33|3
+BE341|81000|Bezirk d’Arlon|District of d’Arlon|Arrondissement d’Arlon|Arrondissement Aarlen|1900-01-01|9999-12-31|BE34|3
+BE342|82000|Bezirk Bastogne|District of Bastogne|Arrondissement de Bastogne|Arrondissement Bastenaken|1900-01-01|9999-12-31|BE34|3
+BE343|83000|Bezirk Marche-en-Famenne|District of Marche-en-Famenne|Arrondissement de Marche-en-Famenne|Arrondissement Marche-en-Famenne|1900-01-01|9999-12-31|BE34|3
+BE344|84000|Bezirk Neufchâteau|District of Neufchâteau|Arrondissement de Neufchâteau|Arrondissement Neufchâteau|1900-01-01|9999-12-31|BE34|3
+BE345|85000|Bezirk Virton|District of Virton|Arrondissement de Virton|Arrondissement Virton|1900-01-01|9999-12-31|BE34|3
+BE351|91000|Bezirk Dinant|District of Dinant|Arrondissement de Dinant|Arrondissement Dinant|1900-01-01|9999-12-31|BE35|3
+BE352|92000|Bezirk Namur|District of Namur|Arrondissement de Namur|Arrondissement Namen|1900-01-01|9999-12-31|BE35|3
+BE353|93000|Bezirk Philippeville|District of Philippeville|Arrondissement de Philippeville|Arrondissement Philippeville|1900-01-01|9999-12-31|BE35|3
+21001|21001|Anderlecht|Anderlecht|Anderlecht|Anderlecht|1900-01-01|9999-12-31|BE100|4
+21002|21002|Auderghem|Auderghem|Auderghem|Oudergem|1900-01-01|9999-12-31|BE100|4
+21003|21003|Berchem-Sainte-Agathe|Berchem-Sainte-Agathe|Berchem-Sainte-Agathe|Sint-Agatha-Berchem|1900-01-01|9999-12-31|BE100|4
+21004|21004|Brüssel|Brussels|Bruxelles|Brussel|1900-01-01|9999-12-31|BE100|4
+21005|21005|Etterbeek|Etterbeek|Etterbeek|Etterbeek|1900-01-01|9999-12-31|BE100|4
+21006|21006|Evere|Evere|Evere|Evere|1900-01-01|9999-12-31|BE100|4
+21007|21007|Forest (Bruxelles-Capitale)|Forest (Bruxelles-Capitale)|Forest (Bruxelles-Capitale)|Vorst (Brussel-Hoofdstad)|1900-01-01|9999-12-31|BE100|4
+21008|21008|Ganshoren|Ganshoren|Ganshoren|Ganshoren|1900-01-01|9999-12-31|BE100|4
+21009|21009|Ixelles|Ixelles|Ixelles|Elsene|1900-01-01|9999-12-31|BE100|4
+21010|21010|Jette|Jette|Jette|Jette|1900-01-01|9999-12-31|BE100|4
+21011|21011|Koekelberg|Koekelberg|Koekelberg|Koekelberg|1900-01-01|9999-12-31|BE100|4
+21012|21012|Molenbeek-Saint-Jean|Molenbeek-Saint-Jean|Molenbeek-Saint-Jean|Sint-Jans-Molenbeek|1900-01-01|9999-12-31|BE100|4
+21013|21013|Saint-Gilles|Saint-Gilles|Saint-Gilles|Sint-Gillis|1900-01-01|9999-12-31|BE100|4
+21014|21014|Saint-Josse-ten-Noode|Saint-Josse-ten-Noode|Saint-Josse-ten-Noode|Sint-Joost-ten-Node|1900-01-01|9999-12-31|BE100|4
+21015|21015|Schaerbeek|Schaerbeek|Schaerbeek|Schaarbeek|1900-01-01|9999-12-31|BE100|4
+21016|21016|Uccle|Uccle|Uccle|Ukkel|1900-01-01|9999-12-31|BE100|4
+21017|21017|Watermael-Boitsfort|Watermael-Boitsfort|Watermael-Boitsfort|Watermaal-Bosvoorde|1900-01-01|9999-12-31|BE100|4
+21018|21018|Woluwe-Saint-Lambert|Woluwe-Saint-Lambert|Woluwe-Saint-Lambert|Sint-Lambrechts-Woluwe|1900-01-01|9999-12-31|BE100|4
+21019|21019|Woluwe-Saint-Pierre|Woluwe-Saint-Pierre|Woluwe-Saint-Pierre|Sint-Pieters-Woluwe|1900-01-01|9999-12-31|BE100|4
+11001|11001|Aartselaar|Aartselaar|Aartselaar|Aartselaar|1900-01-01|9999-12-31|BE211|4
+11002|11002|Antwerpen|Antwerpen|Anvers|Antwerpen|1900-01-01|9999-12-31|BE211|4
+11004|11004|Boechout|Boechout|Boechout|Boechout|1900-01-01|9999-12-31|BE211|4
+11005|11005|Boom|Boom|Boom|Boom|1900-01-01|9999-12-31|BE211|4
+11007|11007|Borsbeek|Borsbeek|Borsbeek|Borsbeek|1900-01-01|9999-12-31|BE211|4
+11008|11008|Brasschaat|Brasschaat|Brasschaat|Brasschaat|1900-01-01|9999-12-31|BE211|4
+11009|11009|Brecht|Brecht|Brecht|Brecht|1900-01-01|9999-12-31|BE211|4
+11013|11013|Edegem|Edegem|Edegem|Edegem|1900-01-01|9999-12-31|BE211|4
+11016|11016|Essen|Essen|Essen|Essen|1900-01-01|9999-12-31|BE211|4
+11018|11018|Hemiksem|Hemiksem|Hemiksem|Hemiksem|1900-01-01|9999-12-31|BE211|4
+11021|11021|Hove (Antwerpen)|Hove (Antwerpen)|Hove (Anvers)|Hove (Antwerpen)|1900-01-01|9999-12-31|BE211|4
+11022|11022|Kalmthout|Kalmthout|Kalmthout|Kalmthout|1900-01-01|9999-12-31|BE211|4
+11023|11023|Kapellen (Antwerpen)|Kapellen (Antwerpen)|Kapellen (Anvers)|Kapellen (Antwerpen)|1900-01-01|9999-12-31|BE211|4
+11024|11024|Kontich|Kontich|Kontich|Kontich|1900-01-01|9999-12-31|BE211|4
+11025|11025|Lint|Lint|Lint|Lint|1900-01-01|9999-12-31|BE211|4
+11029|11029|Mortsel|Mortsel|Mortsel|Mortsel|1900-01-01|9999-12-31|BE211|4
+11030|11030|Niel|Niel|Niel|Niel|1900-01-01|9999-12-31|BE211|4
+11035|11035|Ranst|Ranst|Ranst|Ranst|1900-01-01|9999-12-31|BE211|4
+11037|11037|Rumst|Rumst|Rumst|Rumst|1900-01-01|9999-12-31|BE211|4
+11038|11038|Schelle|Schelle|Schelle|Schelle|1900-01-01|9999-12-31|BE211|4
+11039|11039|Schilde|Schilde|Schilde|Schilde|1900-01-01|9999-12-31|BE211|4
+11040|11040|Schoten|Schoten|Schoten|Schoten|1900-01-01|9999-12-31|BE211|4
+11044|11044|Stabroek|Stabroek|Stabroek|Stabroek|1900-01-01|9999-12-31|BE211|4
+11050|11050|Wijnegem|Wijnegem|Wijnegem|Wijnegem|1900-01-01|9999-12-31|BE211|4
+11052|11052|Wommelgem|Wommelgem|Wommelgem|Wommelgem|1900-01-01|9999-12-31|BE211|4
+11053|11053|Wuustwezel|Wuustwezel|Wuustwezel|Wuustwezel|1900-01-01|9999-12-31|BE211|4
+11054|11054|Zandhoven|Zandhoven|Zandhoven|Zandhoven|1900-01-01|9999-12-31|BE211|4
+11055|11055|Zoersel|Zoersel|Zoersel|Zoersel|1900-01-01|9999-12-31|BE211|4
+11056|11056|Zwijndrecht|Zwijndrecht|Zwijndrecht|Zwijndrecht|1900-01-01|9999-12-31|BE211|4
+11057|11057|Malle|Malle|Malle|Malle|1900-01-01|9999-12-31|BE211|4
+12002|12002|Berlaar|Berlaar|Berlaar|Berlaar|1900-01-01|9999-12-31|BE212|4
+12005|12005|Bonheiden|Bonheiden|Bonheiden|Bonheiden|1900-01-01|9999-12-31|BE212|4
+12007|12007|Bornem|Bornem|Bornem|Bornem|1900-01-01|9999-12-31|BE212|4
+12009|12009|Duffel|Duffel|Duffel|Duffel|1900-01-01|9999-12-31|BE212|4
+12014|12014|Heist-op-den-Berg|Heist-op-den-Berg|Heist-op-den-Berg|Heist-op-den-Berg|1900-01-01|9999-12-31|BE212|4
+12021|12021|Lier|Lier|Lierre|Lier|1900-01-01|9999-12-31|BE212|4
+12025|12025|Mechelen|Mechelen|Malines|Mechelen|1900-01-01|9999-12-31|BE212|4
+12026|12026|Nijlen|Nijlen|Nijlen|Nijlen|1900-01-01|9999-12-31|BE212|4
+12029|12029|Putte|Putte|Putte|Putte|1900-01-01|9999-12-31|BE212|4
+12030|12030|Puurs|Puurs|Puurs|Puurs|1900-01-01|2019-01-01|BE212|4
+12034|12034|Sint-Amands|Sint-Amands|Sint-Amands|Sint-Amands|1900-01-01|2019-01-01|BE212|4
+12035|12035|Sint-Katelijne-Waver|Sint-Katelijne-Waver|Sint-Katelijne-Waver|Sint-Katelijne-Waver|1900-01-01|9999-12-31|BE212|4
+12040|12040|Willebroek|Willebroek|Willebroek|Willebroek|1900-01-01|9999-12-31|BE212|4
+13001|13001|Arendonk|Arendonk|Arendonk|Arendonk|1900-01-01|9999-12-31|BE213|4
+13002|13002|Baarle-Hertog|Baarle-Hertog|Baerle-Duc|Baarle-Hertog|1900-01-01|9999-12-31|BE213|4
+13003|13003|Balen|Balen|Balen|Balen|1900-01-01|9999-12-31|BE213|4
+13004|13004|Beerse|Beerse|Beerse|Beerse|1900-01-01|9999-12-31|BE213|4
+13006|13006|Dessel|Dessel|Dessel|Dessel|1900-01-01|9999-12-31|BE213|4
+13008|13008|Geel|Geel|Geel|Geel|1900-01-01|9999-12-31|BE213|4
+13010|13010|Grobbendonk|Grobbendonk|Grobbendonk|Grobbendonk|1900-01-01|9999-12-31|BE213|4
+13011|13011|Herentals|Herentals|Herentals|Herentals|1900-01-01|9999-12-31|BE213|4
+13012|13012|Herenthout|Herenthout|Herenthout|Herenthout|1900-01-01|9999-12-31|BE213|4
+13013|13013|Herselt|Herselt|Herselt|Herselt|1900-01-01|9999-12-31|BE213|4
+13014|13014|Hoogstraten|Hoogstraten|Hoogstraten|Hoogstraten|1900-01-01|9999-12-31|BE213|4
+13016|13016|Hulshout|Hulshout|Hulshout|Hulshout|1900-01-01|9999-12-31|BE213|4
+13017|13017|Kasterlee|Kasterlee|Kasterlee|Kasterlee|1900-01-01|9999-12-31|BE213|4
+13019|13019|Lille|Lille|Lille|Lille|1900-01-01|9999-12-31|BE213|4
+13021|13021|Meerhout|Meerhout|Meerhout|Meerhout|1900-01-01|9999-12-31|BE213|4
+13023|13023|Merksplas|Merksplas|Merksplas|Merksplas|1900-01-01|9999-12-31|BE213|4
+13025|13025|Mol|Mol|Mol|Mol|1900-01-01|9999-12-31|BE213|4
+13029|13029|Olen|Olen|Olen|Olen|1900-01-01|9999-12-31|BE213|4
+13031|13031|Oud-Turnhout|Oud-Turnhout|Oud-Turnhout|Oud-Turnhout|1900-01-01|9999-12-31|BE213|4
+13035|13035|Ravels|Ravels|Ravels|Ravels|1900-01-01|9999-12-31|BE213|4
+13036|13036|Retie|Retie|Retie|Retie|1900-01-01|9999-12-31|BE213|4
+13037|13037|Rijkevorsel|Rijkevorsel|Rijkevorsel|Rijkevorsel|1900-01-01|9999-12-31|BE213|4
+13040|13040|Turnhout|Turnhout|Turnhout|Turnhout|1900-01-01|9999-12-31|BE213|4
+13044|13044|Vorselaar|Vorselaar|Vorselaar|Vorselaar|1900-01-01|9999-12-31|BE213|4
+13046|13046|Vosselaar|Vosselaar|Vosselaar|Vosselaar|1900-01-01|9999-12-31|BE213|4
+13049|13049|Westerlo|Westerlo|Westerlo|Westerlo|1900-01-01|9999-12-31|BE213|4
+13053|13053|Laakdal|Laakdal|Laakdal|Laakdal|1900-01-01|9999-12-31|BE213|4
+71002|71002|As|As|As|As|1900-01-01|2019-01-01|BE221|4
+71004|71004|Beringen|Beringen|Beringen|Beringen|1900-01-01|2019-01-01|BE221|4
+71011|71011|Diepenbeek|Diepenbeek|Diepenbeek|Diepenbeek|1900-01-01|2019-01-01|BE221|4
+71016|71016|Genk|Genk|Genk|Genk|1900-01-01|2019-01-01|BE221|4
+71017|71017|Gingelom|Gingelom|Gingelom|Gingelom|1900-01-01|2019-01-01|BE221|4
+71020|71020|Halen|Halen|Halen|Halen|1900-01-01|2019-01-01|BE221|4
+71022|71022|Hasselt|Hasselt|Hasselt|Hasselt|1900-01-01|2019-01-01|BE221|4
+71024|71024|Herk-de-Stad|Herk-de-Stad|Herck-la-Ville|Herk-de-Stad|1900-01-01|2019-01-01|BE221|4
+71034|71034|Leopoldsburg|Leopoldsburg|Bourg-Léopold|Leopoldsburg|1900-01-01|2019-01-01|BE221|4
+71037|71037|Lummen|Lummen|Lummen|Lummen|1900-01-01|2019-01-01|BE221|4
+71045|71045|Nieuwerkerken (Hasselt)|Nieuwerkerken (Hasselt)|Nieuwerkerken (Hasselt)|Nieuwerkerken (Hasselt)|1900-01-01|2019-01-01|BE221|4
+71047|71047|Opglabbeek|Opglabbeek|Opglabbeek|Opglabbeek|1900-01-01|2019-01-01|BE221|4
+71053|71053|Sint-Truiden|Sint-Truiden|Saint-Trond|Sint-Truiden|1900-01-01|2019-01-01|BE221|4
+71057|71057|Tessenderlo|Tessenderlo|Tessenderlo|Tessenderlo|1900-01-01|2019-01-01|BE221|4
+71066|71066|Zonhoven|Zonhoven|Zonhoven|Zonhoven|1900-01-01|2019-01-01|BE221|4
+71067|71067|Zutendaal|Zutendaal|Zutendaal|Zutendaal|1900-01-01|2019-01-01|BE221|4
+71069|71069|Ham|Ham|Ham|Ham|1900-01-01|2019-01-01|BE221|4
+71070|71070|Heusden-Zolder|Heusden-Zolder|Heusden-Zolder|Heusden-Zolder|1900-01-01|2019-01-01|BE221|4
+72003|72003|Bocholt|Bocholt|Bocholt|Bocholt|1900-01-01|2019-01-01|BE222|4
+72004|72004|Bree|Bree|Bree|Bree|1900-01-01|2019-01-01|BE222|4
+72018|72018|Kinrooi|Kinrooi|Kinrooi|Kinrooi|1900-01-01|2019-01-01|BE222|4
+72020|72020|Lommel|Lommel|Lommel|Lommel|1900-01-01|2019-01-01|BE222|4
+72021|72021|Maaseik|Maaseik|Maaseik|Maaseik|1900-01-01|2019-01-01|BE222|4
+72025|72025|Neerpelt|Neerpelt|Neerpelt|Neerpelt|1900-01-01|2019-01-01|BE222|4
+72029|72029|Overpelt|Overpelt|Overpelt|Overpelt|1900-01-01|2019-01-01|BE222|4
+72030|72030|Peer|Peer|Peer|Peer|1900-01-01|2019-01-01|BE222|4
+72037|72037|Hamont-Achel|Hamont-Achel|Hamont-Achel|Hamont-Achel|1900-01-01|2019-01-01|BE222|4
+72038|72038|Hechtel-Eksel|Hechtel-Eksel|Hechtel-Eksel|Hechtel-Eksel|1900-01-01|2019-01-01|BE222|4
+72039|72039|Houthalen-Helchteren|Houthalen-Helchteren|Houthalen-Helchteren|Houthalen-Helchteren|1900-01-01|2019-01-01|BE222|4
+72040|72040|Meeuwen-Gruitrode|Meeuwen-Gruitrode|Meeuwen-Gruitrode|Meeuwen-Gruitrode|1900-01-01|2019-01-01|BE222|4
+72041|72041|Dilsen-Stokkem|Dilsen-Stokkem|Dilsen-Stokkem|Dilsen-Stokkem|1900-01-01|2019-01-01|BE222|4
+73001|73001|Alken|Alken|Alken|Alken|1900-01-01|9999-12-31|BE223|4
+73006|73006|Bilzen|Bilzen|Bilzen|Bilzen|1900-01-01|9999-12-31|BE223|4
+73009|73009|Borgloon|Borgloon|Looz|Borgloon|1900-01-01|9999-12-31|BE223|4
+73022|73022|Heers|Heers|Heers|Heers|1900-01-01|9999-12-31|BE223|4
+73028|73028|Herstappe|Herstappe|Herstappe|Herstappe|1900-01-01|9999-12-31|BE223|4
+73032|73032|Hoeselt|Hoeselt|Hoeselt|Hoeselt|1900-01-01|9999-12-31|BE223|4
+73040|73040|Kortessem|Kortessem|Kortessem|Kortessem|1900-01-01|9999-12-31|BE223|4
+73042|73042|Lanaken|Lanaken|Lanaken|Lanaken|1900-01-01|9999-12-31|BE223|4
+73066|73066|Riemst|Riemst|Riemst|Riemst|1900-01-01|9999-12-31|BE223|4
+73083|73083|Tongeren|Tongeren|Tongres|Tongeren|1900-01-01|9999-12-31|BE223|4
+73098|73098|Wellen|Wellen|Wellen|Wellen|1900-01-01|9999-12-31|BE223|4
+73107|73107|Maasmechelen|Maasmechelen|Maasmechelen|Maasmechelen|1900-01-01|9999-12-31|BE223|4
+73109|73109|Voeren|Voeren|Fourons|Voeren|1900-01-01|9999-12-31|BE223|4
+41002|41002|Aalst (Aalst)|Aalst (Aalst)|Alost (Alost)|Aalst (Aalst)|1900-01-01|9999-12-31|BE231|4
+41011|41011|Denderleeuw|Denderleeuw|Denderleeuw|Denderleeuw|1900-01-01|9999-12-31|BE231|4
+41018|41018|Geraardsbergen|Geraardsbergen|Grammont|Geraardsbergen|1900-01-01|9999-12-31|BE231|4
+41024|41024|Haaltert|Haaltert|Haaltert|Haaltert|1900-01-01|9999-12-31|BE231|4
+41027|41027|Herzele|Herzele|Herzele|Herzele|1900-01-01|9999-12-31|BE231|4
+41034|41034|Lede|Lede|Lede|Lede|1900-01-01|9999-12-31|BE231|4
+41048|41048|Ninove|Ninove|Ninove|Ninove|1900-01-01|9999-12-31|BE231|4
+41063|41063|Sint-Lievens-Houtem|Sint-Lievens-Houtem|Sint-Lievens-Houtem|Sint-Lievens-Houtem|1900-01-01|9999-12-31|BE231|4
+41081|41081|Zottegem|Zottegem|Zottegem|Zottegem|1900-01-01|9999-12-31|BE231|4
+41082|41082|Erpe-Mere|Erpe-Mere|Erpe-Mere|Erpe-Mere|1900-01-01|9999-12-31|BE231|4
+42003|42003|Berlare|Berlare|Berlare|Berlare|1900-01-01|9999-12-31|BE232|4
+42004|42004|Buggenhout|Buggenhout|Buggenhout|Buggenhout|1900-01-01|9999-12-31|BE232|4
+42006|42006|Dendermonde|Dendermonde|Termonde|Dendermonde|1900-01-01|9999-12-31|BE232|4
+42008|42008|Hamme (Dendermonde)|Hamme (Dendermonde)|Hamme (Termonde)|Hamme (Dendermonde)|1900-01-01|9999-12-31|BE232|4
+42010|42010|Laarne|Laarne|Laarne|Laarne|1900-01-01|9999-12-31|BE232|4
+42011|42011|Lebbeke|Lebbeke|Lebbeke|Lebbeke|1900-01-01|9999-12-31|BE232|4
+42023|42023|Waasmunster|Waasmunster|Waasmunster|Waasmunster|1900-01-01|9999-12-31|BE232|4
+42025|42025|Wetteren|Wetteren|Wetteren|Wetteren|1900-01-01|9999-12-31|BE232|4
+42026|42026|Wichelen|Wichelen|Wichelen|Wichelen|1900-01-01|9999-12-31|BE232|4
+42028|42028|Zele|Zele|Zele|Zele|1900-01-01|9999-12-31|BE232|4
+43002|43002|Assenede|Assenede|Assenede|Assenede|1900-01-01|9999-12-31|BE233|4
+43005|43005|Eeklo|Eeklo|Eeklo|Eeklo|1900-01-01|9999-12-31|BE233|4
+43007|43007|Kaprijke|Kaprijke|Kaprijke|Kaprijke|1900-01-01|9999-12-31|BE233|4
+43010|43010|Maldegem|Maldegem|Maldegem|Maldegem|1900-01-01|9999-12-31|BE233|4
+43014|43014|Sint-Laureins|Sint-Laureins|Sint-Laureins|Sint-Laureins|1900-01-01|9999-12-31|BE233|4
+43018|43018|Zelzate|Zelzate|Zelzate|Zelzate|1900-01-01|9999-12-31|BE233|4
+44001|44001|Aalter|Aalter|Aalter|Aalter|1900-01-01|2019-01-01|BE234|4
+44011|44011|Deinze|Deinze|Deinze|Deinze|1900-01-01|2019-01-01|BE234|4
+44012|44012|De Pinte|De Pinte|De Pinte|De Pinte|1900-01-01|9999-12-31|BE234|4
+44013|44013|Destelbergen|Destelbergen|Destelbergen|Destelbergen|1900-01-01|9999-12-31|BE234|4
+44019|44019|Evergem|Evergem|Evergem|Evergem|1900-01-01|9999-12-31|BE234|4
+44020|44020|Gavere|Gavere|Gavere|Gavere|1900-01-01|9999-12-31|BE234|4
+44021|44021|Gent|Gent|Gand|Gent|1900-01-01|9999-12-31|BE234|4
+44029|44029|Knesselare|Knesselare|Knesselare|Knesselare|1900-01-01|2019-01-01|BE234|4
+44034|44034|Lochristi|Lochristi|Lochristi|Lochristi|1900-01-01|9999-12-31|BE234|4
+44036|44036|Lovendegem|Lovendegem|Lovendegem|Lovendegem|1900-01-01|2019-01-01|BE234|4
+44040|44040|Melle|Melle|Melle|Melle|1900-01-01|9999-12-31|BE234|4
+44043|44043|Merelbeke|Merelbeke|Merelbeke|Merelbeke|1900-01-01|9999-12-31|BE234|4
+44045|44045|Moerbeke (Gent)|Moerbeke (Gent)|Moerbeke (Gand)|Moerbeke (Gent)|1900-01-01|9999-12-31|BE234|4
+44048|44048|Nazareth|Nazareth|Nazareth|Nazareth|1900-01-01|9999-12-31|BE234|4
+44049|44049|Nevele|Nevele|Nevele|Nevele|1900-01-01|2019-01-01|BE234|4
+44052|44052|Oosterzele|Oosterzele|Oosterzele|Oosterzele|1900-01-01|9999-12-31|BE234|4
+44064|44064|Sint-Martens-Latem|Sint-Martens-Latem|Sint-Martens-Latem|Sint-Martens-Latem|1900-01-01|9999-12-31|BE234|4
+44072|44072|Waarschoot|Waarschoot|Waarschoot|Waarschoot|1900-01-01|2019-01-01|BE234|4
+44073|44073|Wachtebeke|Wachtebeke|Wachtebeke|Wachtebeke|1900-01-01|9999-12-31|BE234|4
+44080|44080|Zomergem|Zomergem|Zomergem|Zomergem|1900-01-01|2019-01-01|BE234|4
+44081|44081|Zulte|Zulte|Zulte|Zulte|1900-01-01|9999-12-31|BE234|4
+45017|45017|Kruishoutem|Kruishoutem|Kruishoutem|Kruishoutem|1900-01-01|2019-01-01|BE235|4
+45035|45035|Oudenaarde|Oudenaarde|Audenarde|Oudenaarde|1900-01-01|9999-12-31|BE235|4
+45041|45041|Ronse|Ronse|Renaix|Ronse|1900-01-01|9999-12-31|BE235|4
+45057|45057|Zingem|Zingem|Zingem|Zingem|1900-01-01|2019-01-01|BE235|4
+45059|45059|Brakel|Brakel|Brakel|Brakel|1900-01-01|9999-12-31|BE235|4
+45060|45060|Kluisbergen|Kluisbergen|Kluisbergen|Kluisbergen|1900-01-01|9999-12-31|BE235|4
+45061|45061|Wortegem-Petegem|Wortegem-Petegem|Wortegem-Petegem|Wortegem-Petegem|1900-01-01|9999-12-31|BE235|4
+45062|45062|Horebeke|Horebeke|Horebeke|Horebeke|1900-01-01|9999-12-31|BE235|4
+45063|45063|Lierde|Lierde|Lierde|Lierde|1900-01-01|9999-12-31|BE235|4
+45064|45064|Maarkedal|Maarkedal|Maarkedal|Maarkedal|1900-01-01|9999-12-31|BE235|4
+45065|45065|Zwalm|Zwalm|Zwalm|Zwalm|1900-01-01|9999-12-31|BE235|4
+46003|46003|Beveren (Sint-Niklaas)|Beveren (Sint-Niklaas)|Beveren (Saint-Nicolas)|Beveren (Sint-Niklaas)|1900-01-01|9999-12-31|BE236|4
+46013|46013|Kruibeke|Kruibeke|Kruibeke|Kruibeke|1900-01-01|9999-12-31|BE236|4
+46014|46014|Lokeren|Lokeren|Lokeren|Lokeren|1900-01-01|9999-12-31|BE236|4
+46020|46020|Sint-Gillis-Waas|Sint-Gillis-Waas|Sint-Gillis-Waas|Sint-Gillis-Waas|1900-01-01|9999-12-31|BE236|4
+46021|46021|Sint-Niklaas (Sint-Niklaas)|Sint-Niklaas (Sint-Niklaas)|Saint-Nicolas (Saint-Nicolas)|Sint-Niklaas (Sint-Niklaas)|1900-01-01|9999-12-31|BE236|4
+46024|46024|Stekene|Stekene|Stekene|Stekene|1900-01-01|9999-12-31|BE236|4
+46025|46025|Temse|Temse|Tamise|Temse|1900-01-01|9999-12-31|BE236|4
+23002|23002|Asse|Asse|Asse|Asse|1900-01-01|9999-12-31|BE241|4
+23003|23003|Beersel|Beersel|Beersel|Beersel|1900-01-01|9999-12-31|BE241|4
+23009|23009|Bever|Bever|Biévène|Bever|1900-01-01|9999-12-31|BE241|4
+23016|23016|Dilbeek|Dilbeek|Dilbeek|Dilbeek|1900-01-01|9999-12-31|BE241|4
+23023|23023|Galmaarden|Galmaarden|Gammerages|Galmaarden|1900-01-01|9999-12-31|BE241|4
+23024|23024|Gooik|Gooik|Gooik|Gooik|1900-01-01|9999-12-31|BE241|4
+23025|23025|Grimbergen|Grimbergen|Grimbergen|Grimbergen|1900-01-01|9999-12-31|BE241|4
+23027|23027|Halle (Halle-Vilvoorde)|Halle (Halle-Vilvoorde)|Hal (Hal-Vilvorde)|Halle (Halle-Vilvoorde)|1900-01-01|9999-12-31|BE241|4
+23032|23032|Herne|Herne|Herne|Herne|1900-01-01|9999-12-31|BE241|4
+23033|23033|Hoeilaart|Hoeilaart|Hoeilaart|Hoeilaart|1900-01-01|9999-12-31|BE241|4
+23038|23038|Kampenhout|Kampenhout|Kampenhout|Kampenhout|1900-01-01|9999-12-31|BE241|4
+23039|23039|Kapelle-op-den-Bos|Kapelle-op-den-Bos|Kapelle-op-den-Bos|Kapelle-op-den-Bos|1900-01-01|9999-12-31|BE241|4
+23044|23044|Liedekerke|Liedekerke|Liedekerke|Liedekerke|1900-01-01|9999-12-31|BE241|4
+23045|23045|Londerzeel|Londerzeel|Londerzeel|Londerzeel|1900-01-01|9999-12-31|BE241|4
+23047|23047|Machelen (Halle-Vilvoorde)|Machelen (Halle-Vilvoorde)|Machelen (Hal-Vilvorde)|Machelen (Halle-Vilvoorde)|1900-01-01|9999-12-31|BE241|4
+23050|23050|Meise|Meise|Meise|Meise|1900-01-01|9999-12-31|BE241|4
+23052|23052|Merchtem|Merchtem|Merchtem|Merchtem|1900-01-01|9999-12-31|BE241|4
+23060|23060|Opwijk|Opwijk|Opwijk|Opwijk|1900-01-01|9999-12-31|BE241|4
+23062|23062|Overijse|Overijse|Overijse|Overijse|1900-01-01|9999-12-31|BE241|4
+23064|23064|Pepingen|Pepingen|Pepingen|Pepingen|1900-01-01|9999-12-31|BE241|4
+23077|23077|Sint-Pieters-Leeuw|Sint-Pieters-Leeuw|Sint-Pieters-Leeuw|Sint-Pieters-Leeuw|1900-01-01|9999-12-31|BE241|4
+23081|23081|Steenokkerzeel|Steenokkerzeel|Steenokkerzeel|Steenokkerzeel|1900-01-01|9999-12-31|BE241|4
+23086|23086|Ternat|Ternat|Ternat|Ternat|1900-01-01|9999-12-31|BE241|4
+23088|23088|Vilvoorde|Vilvoorde|Vilvorde|Vilvoorde|1900-01-01|9999-12-31|BE241|4
+23094|23094|Zaventem|Zaventem|Zaventem|Zaventem|1900-01-01|9999-12-31|BE241|4
+23096|23096|Zemst|Zemst|Zemst|Zemst|1900-01-01|9999-12-31|BE241|4
+23097|23097|Roosdaal|Roosdaal|Roosdaal|Roosdaal|1900-01-01|9999-12-31|BE241|4
+23098|23098|Drogenbos|Drogenbos|Drogenbos|Drogenbos|1900-01-01|9999-12-31|BE241|4
+23099|23099|Kraainem|Kraainem|Kraainem|Kraainem|1900-01-01|9999-12-31|BE241|4
+23100|23100|Linkebeek|Linkebeek|Linkebeek|Linkebeek|1900-01-01|9999-12-31|BE241|4
+23101|23101|Sint-Genesius-Rode|Sint-Genesius-Rode|Rhode-Saint-Genèse|Sint-Genesius-Rode|1900-01-01|9999-12-31|BE241|4
+23102|23102|Wemmel|Wemmel|Wemmel|Wemmel|1900-01-01|9999-12-31|BE241|4
+23103|23103|Wezembeek-Oppem|Wezembeek-Oppem|Wezembeek-Oppem|Wezembeek-Oppem|1900-01-01|9999-12-31|BE241|4
+23104|23104|Lennik|Lennik|Lennik|Lennik|1900-01-01|9999-12-31|BE241|4
+23105|23105|Affligem|Affligem|Affligem|Affligem|1900-01-01|9999-12-31|BE241|4
+24001|24001|Aarschot|Aarschot|Aarschot|Aarschot|1900-01-01|9999-12-31|BE242|4
+24007|24007|Begijnendijk|Begijnendijk|Begijnendijk|Begijnendijk|1900-01-01|9999-12-31|BE242|4
+24008|24008|Bekkevoort|Bekkevoort|Bekkevoort|Bekkevoort|1900-01-01|9999-12-31|BE242|4
+24009|24009|Bertem|Bertem|Bertem|Bertem|1900-01-01|9999-12-31|BE242|4
+24011|24011|Bierbeek|Bierbeek|Bierbeek|Bierbeek|1900-01-01|9999-12-31|BE242|4
+24014|24014|Boortmeerbeek|Boortmeerbeek|Boortmeerbeek|Boortmeerbeek|1900-01-01|9999-12-31|BE242|4
+24016|24016|Boutersem|Boutersem|Boutersem|Boutersem|1900-01-01|9999-12-31|BE242|4
+24020|24020|Diest|Diest|Diest|Diest|1900-01-01|9999-12-31|BE242|4
+24028|24028|Geetbets|Geetbets|Geetbets|Geetbets|1900-01-01|9999-12-31|BE242|4
+24033|24033|Haacht|Haacht|Haacht|Haacht|1900-01-01|9999-12-31|BE242|4
+24038|24038|Herent|Herent|Herent|Herent|1900-01-01|9999-12-31|BE242|4
+24041|24041|Hoegaarden|Hoegaarden|Hoegaarden|Hoegaarden|1900-01-01|9999-12-31|BE242|4
+24043|24043|Holsbeek|Holsbeek|Holsbeek|Holsbeek|1900-01-01|9999-12-31|BE242|4
+24045|24045|Huldenberg|Huldenberg|Huldenberg|Huldenberg|1900-01-01|9999-12-31|BE242|4
+24048|24048|Keerbergen|Keerbergen|Keerbergen|Keerbergen|1900-01-01|9999-12-31|BE242|4
+24054|24054|Kortenaken|Kortenaken|Kortenaken|Kortenaken|1900-01-01|9999-12-31|BE242|4
+24055|24055|Kortenberg|Kortenberg|Kortenberg|Kortenberg|1900-01-01|9999-12-31|BE242|4
+24059|24059|Landen|Landen|Landen|Landen|1900-01-01|9999-12-31|BE242|4
+24062|24062|Leuven|Leuven|Louvain|Leuven|1900-01-01|9999-12-31|BE242|4
+24066|24066|Lubbeek|Lubbeek|Lubbeek|Lubbeek|1900-01-01|9999-12-31|BE242|4
+24086|24086|Oud-Heverlee|Oud-Heverlee|Oud-Heverlee|Oud-Heverlee|1900-01-01|9999-12-31|BE242|4
+24094|24094|Rotselaar|Rotselaar|Rotselaar|Rotselaar|1900-01-01|9999-12-31|BE242|4
+24104|24104|Tervuren|Tervuren|Tervuren|Tervuren|1900-01-01|9999-12-31|BE242|4
+24107|24107|Tienen|Tienen|Tirlemont|Tienen|1900-01-01|9999-12-31|BE242|4
+24109|24109|Tremelo|Tremelo|Tremelo|Tremelo|1900-01-01|9999-12-31|BE242|4
+24130|24130|Zoutleeuw|Zoutleeuw|Léau|Zoutleeuw|1900-01-01|9999-12-31|BE242|4
+24133|24133|Linter|Linter|Linter|Linter|1900-01-01|9999-12-31|BE242|4
+24134|24134|Scherpenheuvel-Zichem|Scherpenheuvel-Zichem|Montaigu-Zichem|Scherpenheuvel-Zichem|1900-01-01|9999-12-31|BE242|4
+24135|24135|Tielt-Winge|Tielt-Winge|Tielt-Winge|Tielt-Winge|1900-01-01|9999-12-31|BE242|4
+24137|24137|Glabbeek|Glabbeek|Glabbeek|Glabbeek|1900-01-01|9999-12-31|BE242|4
+31003|31003|Beernem|Beernem|Beernem|Beernem|1900-01-01|9999-12-31|BE251|4
+31004|31004|Blankenberge|Blankenberge|Blankenberge|Blankenberge|1900-01-01|9999-12-31|BE251|4
+31005|31005|Brugge|Brugge|Bruges|Brugge|1900-01-01|9999-12-31|BE251|4
+31006|31006|Damme|Damme|Damme|Damme|1900-01-01|9999-12-31|BE251|4
+31012|31012|Jabbeke|Jabbeke|Jabbeke|Jabbeke|1900-01-01|9999-12-31|BE251|4
+31022|31022|Oostkamp|Oostkamp|Oostkamp|Oostkamp|1900-01-01|9999-12-31|BE251|4
+31033|31033|Torhout|Torhout|Torhout|Torhout|1900-01-01|9999-12-31|BE251|4
+31040|31040|Zedelgem|Zedelgem|Zedelgem|Zedelgem|1900-01-01|9999-12-31|BE251|4
+31042|31042|Zuienkerke|Zuienkerke|Zuienkerke|Zuienkerke|1900-01-01|9999-12-31|BE251|4
+31043|31043|Knokke-Heist|Knokke-Heist|Knokke-Heist|Knokke-Heist|1900-01-01|9999-12-31|BE251|4
+32003|32003|Diksmuide|Diksmuide|Dixmude|Diksmuide|1900-01-01|9999-12-31|BE252|4
+32006|32006|Houthulst|Houthulst|Houthulst|Houthulst|1900-01-01|9999-12-31|BE252|4
+32010|32010|Koekelare|Koekelare|Koekelare|Koekelare|1900-01-01|9999-12-31|BE252|4
+32011|32011|Kortemark|Kortemark|Kortemark|Kortemark|1900-01-01|9999-12-31|BE252|4
+32030|32030|Lo-Reninge|Lo-Reninge|Lo-Reninge|Lo-Reninge|1900-01-01|9999-12-31|BE252|4
+33011|33011|Ieper|Ieper|Ypres|Ieper|1900-01-01|9999-12-31|BE253|4
+33016|33016|Mesen|Mesen|Messines|Mesen|1900-01-01|9999-12-31|BE253|4
+33021|33021|Poperinge|Poperinge|Poperinge|Poperinge|1900-01-01|9999-12-31|BE253|4
+33029|33029|Wervik|Wervik|Wervik|Wervik|1900-01-01|9999-12-31|BE253|4
+33037|33037|Zonnebeke|Zonnebeke|Zonnebeke|Zonnebeke|1900-01-01|9999-12-31|BE253|4
+33039|33039|Heuvelland|Heuvelland|Heuvelland|Heuvelland|1900-01-01|9999-12-31|BE253|4
+33040|33040|Langemark-Poelkapelle|Langemark-Poelkapelle|Langemark-Poelkapelle|Langemark-Poelkapelle|1900-01-01|9999-12-31|BE253|4
+33041|33041|Vleteren|Vleteren|Vleteren|Vleteren|1900-01-01|9999-12-31|BE253|4
+34002|34002|Anzegem|Anzegem|Anzegem|Anzegem|1900-01-01|9999-12-31|BE254|4
+34003|34003|Avelgem|Avelgem|Avelgem|Avelgem|1900-01-01|9999-12-31|BE254|4
+34009|34009|Deerlijk|Deerlijk|Deerlijk|Deerlijk|1900-01-01|9999-12-31|BE254|4
+34013|34013|Harelbeke|Harelbeke|Harelbeke|Harelbeke|1900-01-01|9999-12-31|BE254|4
+34022|34022|Kortrijk|Kortrijk|Courtrai|Kortrijk|1900-01-01|9999-12-31|BE254|4
+34023|34023|Kuurne|Kuurne|Kuurne|Kuurne|1900-01-01|9999-12-31|BE254|4
+34025|34025|Lendelede|Lendelede|Lendelede|Lendelede|1900-01-01|9999-12-31|BE254|4
+34027|34027|Menen|Menen|Menin|Menen|1900-01-01|9999-12-31|BE254|4
+34040|34040|Waregem|Waregem|Waregem|Waregem|1900-01-01|9999-12-31|BE254|4
+34041|34041|Wevelgem|Wevelgem|Wevelgem|Wevelgem|1900-01-01|9999-12-31|BE254|4
+34042|34042|Zwevegem|Zwevegem|Zwevegem|Zwevegem|1900-01-01|9999-12-31|BE254|4
+34043|34043|Spiere-Helkijn|Spiere-Helkijn|Espierres-Helchin|Spiere-Helkijn|1900-01-01|9999-12-31|BE254|4
+35002|35002|Bredene|Bredene|Bredene|Bredene|1900-01-01|9999-12-31|BE255|4
+35005|35005|Gistel|Gistel|Gistel|Gistel|1900-01-01|9999-12-31|BE255|4
+35006|35006|Ichtegem|Ichtegem|Ichtegem|Ichtegem|1900-01-01|9999-12-31|BE255|4
+35011|35011|Middelkerke|Middelkerke|Middelkerke|Middelkerke|1900-01-01|9999-12-31|BE255|4
+35013|35013|Oostende|Oostende|Ostende|Oostende|1900-01-01|9999-12-31|BE255|4
+35014|35014|Oudenburg|Oudenburg|Oudenburg|Oudenburg|1900-01-01|9999-12-31|BE255|4
+35029|35029|De Haan|De Haan|De Haan|De Haan|1900-01-01|9999-12-31|BE255|4
+36006|36006|Hooglede|Hooglede|Hooglede|Hooglede|1900-01-01|9999-12-31|BE256|4
+36007|36007|Ingelmunster|Ingelmunster|Ingelmunster|Ingelmunster|1900-01-01|9999-12-31|BE256|4
+36008|36008|Izegem|Izegem|Izegem|Izegem|1900-01-01|9999-12-31|BE256|4
+36010|36010|Ledegem|Ledegem|Ledegem|Ledegem|1900-01-01|9999-12-31|BE256|4
+36011|36011|Lichtervelde|Lichtervelde|Lichtervelde|Lichtervelde|1900-01-01|9999-12-31|BE256|4
+36012|36012|Moorslede|Moorslede|Moorslede|Moorslede|1900-01-01|9999-12-31|BE256|4
+36015|36015|Roeselare|Roeselare|Roulers|Roeselare|1900-01-01|9999-12-31|BE256|4
+36019|36019|Staden|Staden|Staden|Staden|1900-01-01|9999-12-31|BE256|4
+37002|37002|Dentergem|Dentergem|Dentergem|Dentergem|1900-01-01|9999-12-31|BE257|4
+37007|37007|Meulebeke|Meulebeke|Meulebeke|Meulebeke|1900-01-01|9999-12-31|BE257|4
+37010|37010|Oostrozebeke|Oostrozebeke|Oostrozebeke|Oostrozebeke|1900-01-01|9999-12-31|BE257|4
+37011|37011|Pittem|Pittem|Pittem|Pittem|1900-01-01|9999-12-31|BE257|4
+37012|37012|Ruiselede|Ruiselede|Ruiselede|Ruiselede|1900-01-01|9999-12-31|BE257|4
+37015|37015|Tielt (Tielt)|Tielt (Tielt)|Tielt (Tielt)|Tielt (Tielt)|1900-01-01|9999-12-31|BE257|4
+37017|37017|Wielsbeke|Wielsbeke|Wielsbeke|Wielsbeke|1900-01-01|9999-12-31|BE257|4
+37018|37018|Wingene|Wingene|Wingene|Wingene|1900-01-01|9999-12-31|BE257|4
+37020|37020|Ardooie|Ardooie|Ardooie|Ardooie|1900-01-01|9999-12-31|BE257|4
+38002|38002|Alveringem|Alveringem|Alveringem|Alveringem|1900-01-01|9999-12-31|BE258|4
+38008|38008|De Panne|De Panne|La Panne|De Panne|1900-01-01|9999-12-31|BE258|4
+38014|38014|Koksijde|Koksijde|Koksijde|Koksijde|1900-01-01|9999-12-31|BE258|4
+38016|38016|Nieuwpoort|Nieuwpoort|Nieuport|Nieuwpoort|1900-01-01|9999-12-31|BE258|4
+38025|38025|Veurne|Veurne|Furnes|Veurne|1900-01-01|9999-12-31|BE258|4
+25005|25005|Beauvechain|Beauvechain|Beauvechain|Bevekom|1900-01-01|9999-12-31|BE310|4
+25014|25014|Braine-l’Alleud|Braine-l’Alleud|Braine-l’Alleud|Eigenbrakel|1900-01-01|9999-12-31|BE310|4
+25015|25015|Braine-le-Château|Braine-le-Château|Braine-le-Château|Kasteelbrakel|1900-01-01|9999-12-31|BE310|4
+25018|25018|Chaumont-Gistoux|Chaumont-Gistoux|Chaumont-Gistoux|Chaumont-Gistoux|1900-01-01|9999-12-31|BE310|4
+25023|25023|Court-Saint-Etienne|Court-Saint-Etienne|Court-Saint-Etienne|Court-Saint-Etienne|1900-01-01|9999-12-31|BE310|4
+25031|25031|Genappe|Genappe|Genappe|Genepiën|1900-01-01|9999-12-31|BE310|4
+25037|25037|Grez-Doiceau|Grez-Doiceau|Grez-Doiceau|Graven|1900-01-01|9999-12-31|BE310|4
+25043|25043|Incourt|Incourt|Incourt|Incourt|1900-01-01|9999-12-31|BE310|4
+25044|25044|Ittre|Ittre|Ittre|Itter|1900-01-01|9999-12-31|BE310|4
+25048|25048|Jodoigne|Jodoigne|Jodoigne|Geldenaken|1900-01-01|9999-12-31|BE310|4
+25050|25050|La Hulpe|La Hulpe|La Hulpe|Terhulpen|1900-01-01|9999-12-31|BE310|4
+25068|25068|Mont-Saint-Guibert|Mont-Saint-Guibert|Mont-Saint-Guibert|Mont-Saint-Guibert|1900-01-01|9999-12-31|BE310|4
+25072|25072|Nivelles|Nivelles|Nivelles|Nijvel|1900-01-01|9999-12-31|BE310|4
+25084|25084|Perwez (Nivelles)|Perwez (Nivelles)|Perwez (Nivelles)|Perwijs (Nijvel)|1900-01-01|9999-12-31|BE310|4
+25091|25091|Rixensart|Rixensart|Rixensart|Rixensart|1900-01-01|9999-12-31|BE310|4
+25105|25105|Tubize|Tubize|Tubize|Tubeke|1900-01-01|9999-12-31|BE310|4
+25107|25107|Villers-la-Ville|Villers-la-Ville|Villers-la-Ville|Villers-la-Ville|1900-01-01|9999-12-31|BE310|4
+25110|25110|Waterloo|Waterloo|Waterloo|Waterloo|1900-01-01|9999-12-31|BE310|4
+25112|25112|Wavre|Wavre|Wavre|Waver|1900-01-01|9999-12-31|BE310|4
+25117|25117|Chastre|Chastre|Chastre|Chastre|1900-01-01|9999-12-31|BE310|4
+25118|25118|Hélécine|Hélécine|Hélécine|Hélécine|1900-01-01|9999-12-31|BE310|4
+25119|25119|Lasne|Lasne|Lasne|Lasne|1900-01-01|9999-12-31|BE310|4
+25120|25120|Orp-Jauche|Orp-Jauche|Orp-Jauche|Orp-Jauche|1900-01-01|9999-12-31|BE310|4
+25121|25121|Ottignies-Louvain-la-Neuve|Ottignies-Louvain-la-Neuve|Ottignies-Louvain-la-Neuve|Ottignies-Louvain-la-Neuve|1900-01-01|9999-12-31|BE310|4
+25122|25122|Ramillies|Ramillies|Ramillies|Ramillies|1900-01-01|9999-12-31|BE310|4
+25123|25123|Rebecq|Rebecq|Rebecq|Rebecq|1900-01-01|9999-12-31|BE310|4
+25124|25124|Walhain|Walhain|Walhain|Walhain|1900-01-01|9999-12-31|BE310|4
+51004|51004|Ath|Ath|Ath|Aat|1900-01-01|2019-01-01|BE321|4
+51008|51008|Beloeil|Beloeil|Beloeil|Beloeil|1900-01-01|2019-01-01|BE321|4
+51009|51009|Bernissart|Bernissart|Bernissart|Bernissart|1900-01-01|2019-01-01|BE321|4
+51012|51012|Brugelette|Brugelette|Brugelette|Brugelette|1900-01-01|2019-01-01|BE321|4
+51014|51014|Chièvres|Chièvres|Chièvres|Chièvres|1900-01-01|2019-01-01|BE321|4
+51017|51017|Ellezelles|Ellezelles|Ellezelles|Elzele|1900-01-01|2019-01-01|BE321|4
+51019|51019|Flobecq|Flobecq|Flobecq|Vloesberg|1900-01-01|2019-01-01|BE321|4
+51065|51065|Frasnes-lez-Anvaing|Frasnes-lez-Anvaing|Frasnes-lez-Anvaing|Frasnes-lez-Anvaing|1900-01-01|2019-01-01|BE321|4
+52010|52010|Chapelle-lez-Herlaimont|Chapelle-lez-Herlaimont|Chapelle-lez-Herlaimont|Chapelle-lez-Herlaimont|1900-01-01|2019-01-01|BE322|4
+52011|52011|Charleroi|Charleroi|Charleroi|Charleroi|1900-01-01|2019-01-01|BE322|4
+52012|52012|Châtelet|Châtelet|Châtelet|Châtelet|1900-01-01|2019-01-01|BE322|4
+52015|52015|Courcelles|Courcelles|Courcelles|Courcelles|1900-01-01|2019-01-01|BE322|4
+52018|52018|Farciennes|Farciennes|Farciennes|Farciennes|1900-01-01|2019-01-01|BE322|4
+52021|52021|Fleurus|Fleurus|Fleurus|Fleurus|1900-01-01|2019-01-01|BE322|4
+52022|52022|Fontaine-l’Evêque|Fontaine-l’Evêque|Fontaine-l’Evêque|Fontaine-l’Evêque|1900-01-01|2019-01-01|BE322|4
+52025|52025|Gerpinnes|Gerpinnes|Gerpinnes|Gerpinnes|1900-01-01|2019-01-01|BE322|4
+52043|52043|Manage|Manage|Manage|Manage|1900-01-01|2019-01-01|BE322|4
+52048|52048|Montigny-le-Tilleul|Montigny-le-Tilleul|Montigny-le-Tilleul|Montigny-le-Tilleul|1900-01-01|2019-01-01|BE322|4
+52055|52055|Pont-à-Celles|Pont-à-Celles|Pont-à-Celles|Pont-à-Celles|1900-01-01|2019-01-01|BE322|4
+52063|52063|Seneffe|Seneffe|Seneffe|Seneffe|1900-01-01|2019-01-01|BE322|4
+52074|52074|Aiseau-Presles|Aiseau-Presles|Aiseau-Presles|Aiseau-Presles|1900-01-01|2019-01-01|BE322|4
+52075|52075|Les Bons Villers|Les Bons Villers|Les Bons Villers|Les Bons Villers|1900-01-01|2019-01-01|BE322|4
+53014|53014|Boussu|Boussu|Boussu|Boussu|1900-01-01|9999-12-31|BE323|4
+53020|53020|Dour|Dour|Dour|Dour|1900-01-01|9999-12-31|BE323|4
+53028|53028|Frameries|Frameries|Frameries|Frameries|1900-01-01|9999-12-31|BE323|4
+53039|53039|Hensies|Hensies|Hensies|Hensies|1900-01-01|9999-12-31|BE323|4
+53044|53044|Jurbise|Jurbise|Jurbise|Jurbeke|1900-01-01|9999-12-31|BE323|4
+53046|53046|Lens|Lens|Lens|Lens|1900-01-01|9999-12-31|BE323|4
+53053|53053|Mons|Mons|Mons|Bergen|1900-01-01|9999-12-31|BE323|4
+53065|53065|Quaregnon|Quaregnon|Quaregnon|Quaregnon|1900-01-01|9999-12-31|BE323|4
+53068|53068|Quiévrain|Quiévrain|Quiévrain|Quiévrain|1900-01-01|9999-12-31|BE323|4
+53070|53070|Saint-Ghislain|Saint-Ghislain|Saint-Ghislain|Saint-Ghislain|1900-01-01|9999-12-31|BE323|4
+53082|53082|Colfontaine|Colfontaine|Colfontaine|Colfontaine|1900-01-01|9999-12-31|BE323|4
+53083|53083|Honnelles|Honnelles|Honnelles|Honnelles|1900-01-01|9999-12-31|BE323|4
+53084|53084|Quévy|Quévy|Quévy|Quévy|1900-01-01|9999-12-31|BE323|4
+54007|54007|Mouscron|Mouscron|Mouscron|Moeskroen|1900-01-01|2019-01-01|BE324|4
+54010|54010|Comines-Warneton|Comines-Warneton|Comines-Warneton|Komen-Waasten|1900-01-01|2019-01-01|BE324|4
+55004|55004|Braine-le-Comte|Braine-le-Comte|Braine-le-Comte|s Gravenbrakel|1900-01-01|2019-01-01|BE325|4
+55010|55010|Enghien|Enghien|Enghien|Edingen|1900-01-01|2019-01-01|BE325|4
+55022|55022|La Louvière|La Louvière|La Louvière|La Louvière|1900-01-01|2019-01-01|BE325|4
+55023|55023|Lessines|Lessines|Lessines|Lessen|1900-01-01|2019-01-01|BE325|4
+55035|55035|Le Roeulx|Le Roeulx|Le Roeulx|Le Roeulx|1900-01-01|2019-01-01|BE325|4
+55039|55039|Silly|Silly|Silly|Opzullik|1900-01-01|2019-01-01|BE325|4
+55040|55040|Soignies|Soignies|Soignies|Zinnik|1900-01-01|2019-01-01|BE325|4
+55050|55050|Ecaussinnes|Ecaussinnes|Ecaussinnes|Ecaussinnes|1900-01-01|2019-01-01|BE325|4
+56001|56001|Anderlues|Anderlues|Anderlues|Anderlues|1900-01-01|2019-01-01|BE326|4
+56005|56005|Beaumont|Beaumont|Beaumont|Beaumont|1900-01-01|2019-01-01|BE326|4
+56011|56011|Binche|Binche|Binche|Binche|1900-01-01|2019-01-01|BE326|4
+56016|56016|Chimay|Chimay|Chimay|Chimay|1900-01-01|2019-01-01|BE326|4
+56022|56022|Erquelinnes|Erquelinnes|Erquelinnes|Erquelinnes|1900-01-01|2019-01-01|BE326|4
+56029|56029|Froidchapelle|Froidchapelle|Froidchapelle|Froidchapelle|1900-01-01|2019-01-01|BE326|4
+56044|56044|Lobbes|Lobbes|Lobbes|Lobbes|1900-01-01|2019-01-01|BE326|4
+56049|56049|Merbes-le-Château|Merbes-le-Château|Merbes-le-Château|Merbes-le-Château|1900-01-01|2019-01-01|BE326|4
+56051|56051|Momignies|Momignies|Momignies|Momignies|1900-01-01|2019-01-01|BE326|4
+56078|56078|Thuin|Thuin|Thuin|Thuin|1900-01-01|2019-01-01|BE326|4
+56085|56085|Estinnes|Estinnes|Estinnes|Estinnes|1900-01-01|2019-01-01|BE326|4
+56086|56086|Ham-sur-Heure-Nalinnes|Ham-sur-Heure-Nalinnes|Ham-sur-Heure-Nalinnes|Ham-sur-Heure-Nalinnes|1900-01-01|2019-01-01|BE326|4
+56087|56087|Morlanwelz|Morlanwelz|Morlanwelz|Morlanwelz|1900-01-01|2019-01-01|BE326|4
+56088|56088|Sivry-Rance|Sivry-Rance|Sivry-Rance|Sivry-Rance|1900-01-01|2019-01-01|BE326|4
+57003|57003|Antoing|Antoing|Antoing|Antoing|1900-01-01|2019-01-01|BE327|4
+57018|57018|Celles (Tournai)|Celles (Tournai)|Celles (Tournai)|Celles (Doornik)|1900-01-01|2019-01-01|BE327|4
+57027|57027|Estaimpuis|Estaimpuis|Estaimpuis|Estaimpuis|1900-01-01|2019-01-01|BE327|4
+57062|57062|Pecq|Pecq|Pecq|Pecq|1900-01-01|2019-01-01|BE327|4
+57064|57064|Péruwelz|Péruwelz|Péruwelz|Péruwelz|1900-01-01|2019-01-01|BE327|4
+57072|57072|Rumes|Rumes|Rumes|Rumes|1900-01-01|2019-01-01|BE327|4
+57081|57081|Tournai|Tournai|Tournai|Doornik|1900-01-01|2019-01-01|BE327|4
+57093|57093|Brunehaut|Brunehaut|Brunehaut|Brunehaut|1900-01-01|2019-01-01|BE327|4
+57094|57094|Leuze-en-Hainaut|Leuze-en-Hainaut|Leuze-en-Hainaut|Leuze-en-Hainaut|1900-01-01|2019-01-01|BE327|4
+57095|57095|Mont-de-l’Enclus|Mont-de-l’Enclus|Mont-de-l’Enclus|Mont-de-l’Enclus|1900-01-01|2019-01-01|BE327|4
+61003|61003|Amay|Amay|Amay|Amay|1900-01-01|9999-12-31|BE331|4
+61010|61010|Burdinne|Burdinne|Burdinne|Burdinne|1900-01-01|9999-12-31|BE331|4
+61012|61012|Clavier|Clavier|Clavier|Clavier|1900-01-01|9999-12-31|BE331|4
+61019|61019|Ferrières|Ferrières|Ferrières|Ferrières|1900-01-01|9999-12-31|BE331|4
+61024|61024|Hamoir|Hamoir|Hamoir|Hamoir|1900-01-01|9999-12-31|BE331|4
+61028|61028|Héron|Héron|Héron|Héron|1900-01-01|9999-12-31|BE331|4
+61031|61031|Huy|Huy|Huy|Hoei|1900-01-01|9999-12-31|BE331|4
+61039|61039|Marchin|Marchin|Marchin|Marchin|1900-01-01|9999-12-31|BE331|4
+61041|61041|Modave|Modave|Modave|Modave|1900-01-01|9999-12-31|BE331|4
+61043|61043|Nandrin|Nandrin|Nandrin|Nandrin|1900-01-01|9999-12-31|BE331|4
+61048|61048|Ouffet|Ouffet|Ouffet|Ouffet|1900-01-01|9999-12-31|BE331|4
+61063|61063|Verlaine|Verlaine|Verlaine|Verlaine|1900-01-01|9999-12-31|BE331|4
+61068|61068|Villers-Le-Bouillet|Villers-Le-Bouillet|Villers-Le-Bouillet|Villers-Le-Bouillet|1900-01-01|9999-12-31|BE331|4
+61072|61072|Wanze|Wanze|Wanze|Wanze|1900-01-01|9999-12-31|BE331|4
+61079|61079|Anthisnes|Anthisnes|Anthisnes|Anthisnes|1900-01-01|9999-12-31|BE331|4
+61080|61080|Engis|Engis|Engis|Engis|1900-01-01|9999-12-31|BE331|4
+61081|61081|Tinlot|Tinlot|Tinlot|Tinlot|1900-01-01|9999-12-31|BE331|4
+62003|62003|Ans|Ans|Ans|Ans|1900-01-01|9999-12-31|BE332|4
+62006|62006|Awans|Awans|Awans|Awans|1900-01-01|9999-12-31|BE332|4
+62009|62009|Aywaille|Aywaille|Aywaille|Aywaille|1900-01-01|9999-12-31|BE332|4
+62011|62011|Bassenge|Bassenge|Bassenge|Bitsingen|1900-01-01|9999-12-31|BE332|4
+62015|62015|Beyne-Heusay|Beyne-Heusay|Beyne-Heusay|Beyne-Heusay|1900-01-01|9999-12-31|BE332|4
+62022|62022|Chaudfontaine|Chaudfontaine|Chaudfontaine|Chaudfontaine|1900-01-01|9999-12-31|BE332|4
+62026|62026|Comblain-au-Pont|Comblain-au-Pont|Comblain-au-Pont|Comblain-au-Pont|1900-01-01|9999-12-31|BE332|4
+62027|62027|Dalhem|Dalhem|Dalhem|Dalhem|1900-01-01|9999-12-31|BE332|4
+62032|62032|Esneux|Esneux|Esneux|Esneux|1900-01-01|9999-12-31|BE332|4
+62038|62038|Fléron|Fléron|Fléron|Fléron|1900-01-01|9999-12-31|BE332|4
+62051|62051|Herstal|Herstal|Herstal|Herstal|1900-01-01|9999-12-31|BE332|4
+62060|62060|Juprelle|Juprelle|Juprelle|Juprelle|1900-01-01|9999-12-31|BE332|4
+62063|62063|Liège|Liège|Liège|Luik|1900-01-01|9999-12-31|BE332|4
+62079|62079|Oupeye|Oupeye|Oupeye|Oupeye|1900-01-01|9999-12-31|BE332|4
+62093|62093|Saint-Nicolas (Liège)|Saint-Nicolas (Liège)|Saint-Nicolas (Liège)|Saint-Nicolas (Luik)|1900-01-01|9999-12-31|BE332|4
+62096|62096|Seraing|Seraing|Seraing|Seraing|1900-01-01|9999-12-31|BE332|4
+62099|62099|Soumagne|Soumagne|Soumagne|Soumagne|1900-01-01|9999-12-31|BE332|4
+62100|62100|Sprimont|Sprimont|Sprimont|Sprimont|1900-01-01|9999-12-31|BE332|4
+62108|62108|Visé|Visé|Visé|Wezet|1900-01-01|9999-12-31|BE332|4
+62118|62118|Grâce-Hollogne|Grâce-Hollogne|Grâce-Hollogne|Grâce-Hollogne|1900-01-01|9999-12-31|BE332|4
+62119|62119|Blégny|Blégny|Blégny|Blégny|1900-01-01|9999-12-31|BE332|4
+62120|62120|Flémalle|Flémalle|Flémalle|Flémalle|1900-01-01|9999-12-31|BE332|4
+62121|62121|Neupré|Neupré|Neupré|Neupré|1900-01-01|9999-12-31|BE332|4
+62122|62122|Trooz|Trooz|Trooz|Trooz|1900-01-01|9999-12-31|BE332|4
+64008|64008|Berloz|Berloz|Berloz|Berloz|1900-01-01|9999-12-31|BE334|4
+64015|64015|Braives|Braives|Braives|Braives|1900-01-01|9999-12-31|BE334|4
+64021|64021|Crisnée|Crisnée|Crisnée|Crisnée|1900-01-01|9999-12-31|BE334|4
+64023|64023|Donceel|Donceel|Donceel|Donceel|1900-01-01|9999-12-31|BE334|4
+64025|64025|Fexhe-le-Haut-Clocher|Fexhe-le-Haut-Clocher|Fexhe-le-Haut-Clocher|Fexhe-le-Haut-Clocher|1900-01-01|9999-12-31|BE334|4
+64029|64029|Geer|Geer|Geer|Geer|1900-01-01|9999-12-31|BE334|4
+64034|64034|Hannut|Hannut|Hannut|Hannuit|1900-01-01|9999-12-31|BE334|4
+64047|64047|Lincent|Lincent|Lincent|Lijsem|1900-01-01|9999-12-31|BE334|4
+64056|64056|Oreye|Oreye|Oreye|Oerle|1900-01-01|9999-12-31|BE334|4
+64063|64063|Remicourt|Remicourt|Remicourt|Remicourt|1900-01-01|9999-12-31|BE334|4
+64065|64065|Saint-Georges-sur-Meuse|Saint-Georges-sur-Meuse|Saint-Georges-sur-Meuse|Saint-Georges-sur-Meuse|1900-01-01|9999-12-31|BE334|4
+64074|64074|Waremme|Waremme|Waremme|Borgworm|1900-01-01|9999-12-31|BE334|4
+64075|64075|Wasseiges|Wasseiges|Wasseiges|Wasseiges|1900-01-01|9999-12-31|BE334|4
+64076|64076|Faimes|Faimes|Faimes|Faimes|1900-01-01|9999-12-31|BE334|4
+63003|63003|Aubel|Aubel|Aubel|Aubel|1900-01-01|9999-12-31|BE335|4
+63004|63004|Baelen|Baelen|Baelen|Baelen|1900-01-01|9999-12-31|BE335|4
+63020|63020|Dison|Dison|Dison|Dison|1900-01-01|9999-12-31|BE335|4
+63035|63035|Herve|Herve|Herve|Herve|1900-01-01|9999-12-31|BE335|4
+63038|63038|Jalhay|Jalhay|Jalhay|Jalhay|1900-01-01|9999-12-31|BE335|4
+63045|63045|Lierneux|Lierneux|Lierneux|Lierneux|1900-01-01|9999-12-31|BE335|4
+63046|63046|Limburg|Limburg|Limbourg|Limburg|1900-01-01|9999-12-31|BE335|4
+63049|63049|Malmedy|Malmedy|Malmedy|Malmedy|1900-01-01|9999-12-31|BE335|4
+63057|63057|Olne|Olne|Olne|Olne|1900-01-01|9999-12-31|BE335|4
+63058|63058|Pepinster|Pepinster|Pepinster|Pepinster|1900-01-01|9999-12-31|BE335|4
+63072|63072|Spa|Spa|Spa|Spa|1900-01-01|9999-12-31|BE335|4
+63073|63073|Stavelot|Stavelot|Stavelot|Stavelot|1900-01-01|9999-12-31|BE335|4
+63075|63075|Stoumont|Stoumont|Stoumont|Stoumont|1900-01-01|9999-12-31|BE335|4
+63076|63076|Theux|Theux|Theux|Theux|1900-01-01|9999-12-31|BE335|4
+63079|63079|Verviers|Verviers|Verviers|Verviers|1900-01-01|9999-12-31|BE335|4
+63080|63080|Weismes|Weismes|Waimes|Weismes|1900-01-01|9999-12-31|BE335|4
+63084|63084|Welkenraedt|Welkenraedt|Welkenraedt|Welkenraedt|1900-01-01|9999-12-31|BE335|4
+63086|63086|Trois-Ponts|Trois-Ponts|Trois-Ponts|Trois-Ponts|1900-01-01|9999-12-31|BE335|4
+63088|63088|Plombières|Plombières|Plombières|Plombières|1900-01-01|9999-12-31|BE335|4
+63089|63089|Thimister-Clermont|Thimister-Clermont|Thimister-Clermont|Thimister-Clermont|1900-01-01|9999-12-31|BE335|4
+63001|63001|Amel|Amel|Amblève|Amel|1900-01-01|9999-12-31|BE336|4
+63012|63012|Büllingen|Büllingen|Bullange|Büllingen|1900-01-01|9999-12-31|BE336|4
+63013|63013|Bütgenbach|Bütgenbach|Butgenbach|Bütgenbach|1900-01-01|9999-12-31|BE336|4
+63023|63023|Eupen|Eupen|Eupen|Eupen|1900-01-01|9999-12-31|BE336|4
+63040|63040|Kelmis|Kelmis|La Calamine|Kelmis|1900-01-01|9999-12-31|BE336|4
+63048|63048|Lontzen|Lontzen|Lontzen|Lontzen|1900-01-01|9999-12-31|BE336|4
+63061|63061|Raeren|Raeren|Raeren|Raeren|1900-01-01|9999-12-31|BE336|4
+63067|63067|Sankt Vith|Sankt Vith|Saint-Vith|Sankt Vith|1900-01-01|9999-12-31|BE336|4
+63087|63087|Burg-Reuland|Burg-Reuland|Burg-Reuland|Burg-Reuland|1900-01-01|9999-12-31|BE336|4
+81001|81001|Arlon|Arlon|Arlon|Aarlen|1900-01-01|9999-12-31|BE341|4
+81003|81003|Attert|Attert|Attert|Attert|1900-01-01|9999-12-31|BE341|4
+81004|81004|Aubange|Aubange|Aubange|Aubange|1900-01-01|9999-12-31|BE341|4
+81013|81013|Martelange|Martelange|Martelange|Martelange|1900-01-01|9999-12-31|BE341|4
+81015|81015|Messancy|Messancy|Messancy|Messancy|1900-01-01|9999-12-31|BE341|4
+82003|82003|Bastogne|Bastogne|Bastogne|Bastenaken|1900-01-01|9999-12-31|BE342|4
+82005|82005|Bertogne|Bertogne|Bertogne|Bertogne|1900-01-01|9999-12-31|BE342|4
+82009|82009|Fauvillers|Fauvillers|Fauvillers|Fauvillers|1900-01-01|9999-12-31|BE342|4
+82014|82014|Houffalize|Houffalize|Houffalize|Houffalize|1900-01-01|9999-12-31|BE342|4
+82032|82032|Vielsalm|Vielsalm|Vielsalm|Vielsalm|1900-01-01|9999-12-31|BE342|4
+82036|82036|Vaux-sur-Sûre|Vaux-sur-Sûre|Vaux-sur-Sûre|Vaux-sur-Sûre|1900-01-01|9999-12-31|BE342|4
+82037|82037|Gouvy|Gouvy|Gouvy|Gouvy|1900-01-01|9999-12-31|BE342|4
+82038|82038|Sainte-Ode|Sainte-Ode|Sainte-Ode|Sainte-Ode|1900-01-01|9999-12-31|BE342|4
+83012|83012|Durbuy|Durbuy|Durbuy|Durbuy|1900-01-01|9999-12-31|BE343|4
+83013|83013|Erezée|Erezée|Erezée|Erezée|1900-01-01|9999-12-31|BE343|4
+83028|83028|Hotton|Hotton|Hotton|Hotton|1900-01-01|9999-12-31|BE343|4
+83031|83031|La Roche-en-Ardenne|La Roche-en-Ardenne|La Roche-en-Ardenne|La Roche-en-Ardenne|1900-01-01|9999-12-31|BE343|4
+83034|83034|Marche-en-Famenne|Marche-en-Famenne|Marche-en-Famenne|Marche-en-Famenne|1900-01-01|9999-12-31|BE343|4
+83040|83040|Nassogne|Nassogne|Nassogne|Nassogne|1900-01-01|9999-12-31|BE343|4
+83044|83044|Rendeux|Rendeux|Rendeux|Rendeux|1900-01-01|9999-12-31|BE343|4
+83049|83049|Tenneville|Tenneville|Tenneville|Tenneville|1900-01-01|9999-12-31|BE343|4
+83055|83055|Manhay|Manhay|Manhay|Manhay|1900-01-01|9999-12-31|BE343|4
+84009|84009|Bertrix|Bertrix|Bertrix|Bertrix|1900-01-01|9999-12-31|BE344|4
+84010|84010|Bouillon|Bouillon|Bouillon|Bouillon|1900-01-01|9999-12-31|BE344|4
+84016|84016|Daverdisse|Daverdisse|Daverdisse|Daverdisse|1900-01-01|9999-12-31|BE344|4
+84029|84029|Herbeumont|Herbeumont|Herbeumont|Herbeumont|1900-01-01|9999-12-31|BE344|4
+84033|84033|Léglise|Léglise|Léglise|Léglise|1900-01-01|9999-12-31|BE344|4
+84035|84035|Libin|Libin|Libin|Libin|1900-01-01|9999-12-31|BE344|4
+84043|84043|Neufchâteau (Neufchâteau)|Neufchâteau (Neufchâteau)|Neufchâteau (Neufchâteau)|Neufchâteau (Neufchâteau)|1900-01-01|9999-12-31|BE344|4
+84050|84050|Paliseul|Paliseul|Paliseul|Paliseul|1900-01-01|9999-12-31|BE344|4
+84059|84059|Saint-Hubert|Saint-Hubert|Saint-Hubert|Saint-Hubert|1900-01-01|9999-12-31|BE344|4
+84068|84068|Tellin|Tellin|Tellin|Tellin|1900-01-01|9999-12-31|BE344|4
+84075|84075|Wellin|Wellin|Wellin|Wellin|1900-01-01|9999-12-31|BE344|4
+84077|84077|Libramont-Chevigny|Libramont-Chevigny|Libramont-Chevigny|Libramont-Chevigny|1900-01-01|9999-12-31|BE344|4
+85007|85007|Chiny|Chiny|Chiny|Chiny|1900-01-01|9999-12-31|BE345|4
+85009|85009|Etalle|Etalle|Etalle|Etalle|1900-01-01|9999-12-31|BE345|4
+85011|85011|Florenville|Florenville|Florenville|Florenville|1900-01-01|9999-12-31|BE345|4
+85024|85024|Meix-devant-Virton|Meix-devant-Virton|Meix-devant-Virton|Meix-devant-Virton|1900-01-01|9999-12-31|BE345|4
+85026|85026|Musson|Musson|Musson|Musson|1900-01-01|9999-12-31|BE345|4
+85034|85034|Saint-Léger (Virton)|Saint-Léger (Virton)|Saint-Léger (Virton)|Saint-Léger (Virton)|1900-01-01|9999-12-31|BE345|4
+85039|85039|Tintigny|Tintigny|Tintigny|Tintigny|1900-01-01|9999-12-31|BE345|4
+85045|85045|Virton|Virton|Virton|Virton|1900-01-01|9999-12-31|BE345|4
+85046|85046|Habay|Habay|Habay|Habay|1900-01-01|9999-12-31|BE345|4
+85047|85047|Rouvroy|Rouvroy|Rouvroy|Rouvroy|1900-01-01|9999-12-31|BE345|4
+91005|91005|Anhée|Anhée|Anhée|Anhée|1900-01-01|9999-12-31|BE351|4
+91013|91013|Beauraing|Beauraing|Beauraing|Beauraing|1900-01-01|9999-12-31|BE351|4
+91015|91015|Bièvre|Bièvre|Bièvre|Bièvre|1900-01-01|9999-12-31|BE351|4
+91030|91030|Ciney|Ciney|Ciney|Ciney|1900-01-01|9999-12-31|BE351|4
+91034|91034|Dinant|Dinant|Dinant|Dinant|1900-01-01|9999-12-31|BE351|4
+91054|91054|Gedinne|Gedinne|Gedinne|Gedinne|1900-01-01|9999-12-31|BE351|4
+91059|91059|Hamois|Hamois|Hamois|Hamois|1900-01-01|9999-12-31|BE351|4
+91064|91064|Havelange|Havelange|Havelange|Havelange|1900-01-01|9999-12-31|BE351|4
+91072|91072|Houyet|Houyet|Houyet|Houyet|1900-01-01|9999-12-31|BE351|4
+91103|91103|Onhaye|Onhaye|Onhaye|Onhaye|1900-01-01|9999-12-31|BE351|4
+91114|91114|Rochefort|Rochefort|Rochefort|Rochefort|1900-01-01|9999-12-31|BE351|4
+91120|91120|Somme-Leuze|Somme-Leuze|Somme-Leuze|Somme-Leuze|1900-01-01|9999-12-31|BE351|4
+91141|91141|Yvoir|Yvoir|Yvoir|Yvoir|1900-01-01|9999-12-31|BE351|4
+91142|91142|Hastière|Hastière|Hastière|Hastière|1900-01-01|9999-12-31|BE351|4
+91143|91143|Vresse-sur-Semois|Vresse-sur-Semois|Vresse-sur-Semois|Vresse-sur-Semois|1900-01-01|9999-12-31|BE351|4
+92003|92003|Andenne|Andenne|Andenne|Andenne|1900-01-01|9999-12-31|BE352|4
+92006|92006|Assesse|Assesse|Assesse|Assesse|1900-01-01|9999-12-31|BE352|4
+92035|92035|Eghezée|Eghezée|Eghezée|Eghezée|1900-01-01|9999-12-31|BE352|4
+92045|92045|Floreffe|Floreffe|Floreffe|Floreffe|1900-01-01|9999-12-31|BE352|4
+92048|92048|Fosses-la-Ville|Fosses-la-Ville|Fosses-la-Ville|Fosses-la-Ville|1900-01-01|9999-12-31|BE352|4
+92054|92054|Gesves|Gesves|Gesves|Gesves|1900-01-01|9999-12-31|BE352|4
+92087|92087|Mettet|Mettet|Mettet|Mettet|1900-01-01|9999-12-31|BE352|4
+92094|92094|Namur|Namur|Namur|Namen|1900-01-01|9999-12-31|BE352|4
+92097|92097|Ohey|Ohey|Ohey|Ohey|1900-01-01|9999-12-31|BE352|4
+92101|92101|Profondeville|Profondeville|Profondeville|Profondeville|1900-01-01|9999-12-31|BE352|4
+92114|92114|Sombreffe|Sombreffe|Sombreffe|Sombreffe|1900-01-01|9999-12-31|BE352|4
+92137|92137|Sambreville|Sambreville|Sambreville|Sambreville|1900-01-01|9999-12-31|BE352|4
+92138|92138|Fernelmont|Fernelmont|Fernelmont|Fernelmont|1900-01-01|9999-12-31|BE352|4
+92140|92140|Jemeppe-sur-Sambre|Jemeppe-sur-Sambre|Jemeppe-sur-Sambre|Jemeppe-sur-Sambre|1900-01-01|9999-12-31|BE352|4
+92141|92141|La Bruyère|La Bruyère|La Bruyère|La Bruyère|1900-01-01|9999-12-31|BE352|4
+92142|92142|Gembloux|Gembloux|Gembloux|Gembloux|1900-01-01|9999-12-31|BE352|4
+93010|93010|Cerfontaine|Cerfontaine|Cerfontaine|Cerfontaine|1900-01-01|9999-12-31|BE353|4
+93014|93014|Couvin|Couvin|Couvin|Couvin|1900-01-01|9999-12-31|BE353|4
+93018|93018|Doische|Doische|Doische|Doische|1900-01-01|9999-12-31|BE353|4
+93022|93022|Florennes|Florennes|Florennes|Florennes|1900-01-01|9999-12-31|BE353|4
+93056|93056|Philippeville|Philippeville|Philippeville|Philippeville|1900-01-01|9999-12-31|BE353|4
+93088|93088|Walcourt|Walcourt|Walcourt|Walcourt|1900-01-01|9999-12-31|BE353|4
+93090|93090|Viroinval|Viroinval|Viroinval|Viroinval|1900-01-01|9999-12-31|BE353|4
+BE224|71000|Bezirk Hasselt|District of Hasselt|Arrondissement de Hasselt|Arrondissement Hasselt|2019-01-01|9999-12-31|BE22|3
+BE225|72000|Bezirk Maaseik|District of Maaseik|Arrondissement de Maaseik|Arrondissement Maaseik|2019-01-01|9999-12-31|BE22|3
+BE328|57000|Berzik Tournai-Mouscron|District of Tournai-Mouscron|Arrondissement de Tournai-Mouscron|Arrondissement Tournai-Moeskroen|2019-01-01|9999-12-31|BE32|3
+BE329|58000|Berzik La Louvière|District of La Louvière|Arrondissement de La Louvière|Arrondissement La Louvière|2019-01-01|9999-12-31|BE32|3
+BE32A|51000|Bezirk d’Ath|District of d’Ath|Arrondissement d’Ath|Arrondissement Aat|2019-01-01|9999-12-31|BE32|3
+BE32B|52000|Bezirk Charleroi|District of Charleroi|Arrondissement de Charleroi|Arrondissement Charleroi|2019-01-01|9999-12-31|BE32|3
+BE32C|55000|Bezirk Soignies|District of Soignies|Arrondissement de Soignies|Arrondissement Zinnik|2019-01-01|9999-12-31|BE32|3
+BE32D|56000|Bezirk Thuin|District of Thuin|Arrondissement de Thuin|Arrondissement Thuin|2019-01-01|9999-12-31|BE32|3
+12041|12041|Puurs-Sint-Amands|Puurs-Sint-Amands|Puurs-Sint-Amands|Puurs-Sint-Amands|2019-01-01|9999-12-31|BE212|4
+44083|44083|Deinze|Deinze|Deinze|Deinze|2019-01-01|9999-12-31|BE234|4
+44084|44084|Aalter|Aalter|Aalter|Aalter|2019-01-01|9999-12-31|BE234|4
+44085|44085|Lievegem|Lievegem|Lievegem|Lievegem|2019-01-01|9999-12-31|BE234|4
+45068|45068|Kruisem|Kruisem|Kruisem|Kruisem|2019-01-01|9999-12-31|BE235|4
+51004|51004|Ath|Ath|Ath|Aat|2019-01-01|9999-12-31|BE32A|4
+51008|51008|Beloeil|Beloeil|Beloeil|Beloeil|2019-01-01|9999-12-31|BE32A|4
+51009|51009|Bernissart|Bernissart|Bernissart|Bernissart|2019-01-01|9999-12-31|BE32A|4
+51012|51012|Brugelette|Brugelette|Brugelette|Brugelette|2019-01-01|9999-12-31|BE32A|4
+51014|51014|Chièvres|Chièvres|Chièvres|Chièvres|2019-01-01|9999-12-31|BE32A|4
+51017|51017|Ellezelles|Ellezelles|Ellezelles|Elzele|2019-01-01|9999-12-31|BE32A|4
+51019|51019|Flobecq|Flobecq|Flobecq|Vloesberg|2019-01-01|9999-12-31|BE32A|4
+51065|51065|Frasnes-lez-Anvaing|Frasnes-lez-Anvaing|Frasnes-lez-Anvaing|Frasnes-lez-Anvaing|2019-01-01|9999-12-31|BE32A|4
+51067|51067|Enghien|Enghien|Enghien|Edingen|2019-01-01|9999-12-31|BE32A|4
+51068|51068|Silly|Silly|Silly|Opzullik|2019-01-01|9999-12-31|BE32A|4
+51069|51069|Lessines|Lessines|Lessines|Lessen|2019-01-01|9999-12-31|BE32A|4
+52010|52010|Chapelle-lez-Herlaimont|Chapelle-lez-Herlaimont|Chapelle-lez-Herlaimont|Chapelle-lez-Herlaimont|2019-01-01|9999-12-31|BE32B|4
+52011|52011|Charleroi|Charleroi|Charleroi|Charleroi|2019-01-01|9999-12-31|BE32B|4
+52012|52012|Châtelet|Châtelet|Châtelet|Châtelet|2019-01-01|9999-12-31|BE32B|4
+52015|52015|Courcelles|Courcelles|Courcelles|Courcelles|2019-01-01|9999-12-31|BE32B|4
+52018|52018|Farciennes|Farciennes|Farciennes|Farciennes|2019-01-01|9999-12-31|BE32B|4
+52021|52021|Fleurus|Fleurus|Fleurus|Fleurus|2019-01-01|9999-12-31|BE32B|4
+52022|52022|Fontaine-l’Evêque|Fontaine-l’Evêque|Fontaine-l’Evêque|Fontaine-l’Evêque|2019-01-01|9999-12-31|BE32B|4
+52025|52025|Gerpinnes|Gerpinnes|Gerpinnes|Gerpinnes|2019-01-01|9999-12-31|BE32B|4
+52048|52048|Montigny-le-Tilleul|Montigny-le-Tilleul|Montigny-le-Tilleul|Montigny-le-Tilleul|2019-01-01|9999-12-31|BE32B|4
+52055|52055|Pont-à-Celles|Pont-à-Celles|Pont-à-Celles|Pont-à-Celles|2019-01-01|9999-12-31|BE32B|4
+52074|52074|Aiseau-Presles|Aiseau-Presles|Aiseau-Presles|Aiseau-Presles|2019-01-01|9999-12-31|BE32B|4
+52075|52075|Les Bons Villers|Les Bons Villers|Les Bons Villers|Les Bons Villers|2019-01-01|9999-12-31|BE32B|4
+55004|55004|Braine-le-Comte|Braine-le-Comte|Braine-le-Comte|s Gravenbrakel|2019-01-01|9999-12-31|BE32C|4
+55035|55035|Le Roeulx|Le Roeulx|Le Roeulx|Le Roeulx|2019-01-01|9999-12-31|BE32C|4
+55040|55040|Soignies|Soignies|Soignies|Zinnik|2019-01-01|9999-12-31|BE32C|4
+55050|55050|Ecaussinnes|Ecaussinnes|Ecaussinnes|Ecaussinnes|2019-01-01|9999-12-31|BE32C|4
+55085|55085|Seneffe|Seneffe|Seneffe|Seneffe|2019-01-01|9999-12-31|BE32C|4
+55086|55086|Manage|Manage|Manage|Manage|2019-01-01|9999-12-31|BE32C|4
+56001|56001|Anderlues|Anderlues|Anderlues|Anderlues|2019-01-01|9999-12-31|BE32D|4
+56005|56005|Beaumont|Beaumont|Beaumont|Beaumont|2019-01-01|9999-12-31|BE32D|4
+56016|56016|Chimay|Chimay|Chimay|Chimay|2019-01-01|9999-12-31|BE32D|4
+56022|56022|Erquelinnes|Erquelinnes|Erquelinnes|Erquelinnes|2019-01-01|9999-12-31|BE32D|4
+56029|56029|Froidchapelle|Froidchapelle|Froidchapelle|Froidchapelle|2019-01-01|9999-12-31|BE32D|4
+56044|56044|Lobbes|Lobbes|Lobbes|Lobbes|2019-01-01|9999-12-31|BE32D|4
+56049|56049|Merbes-le-Château|Merbes-le-Château|Merbes-le-Château|Merbes-le-Château|2019-01-01|9999-12-31|BE32D|4
+56051|56051|Momignies|Momignies|Momignies|Momignies|2019-01-01|9999-12-31|BE32D|4
+56078|56078|Thuin|Thuin|Thuin|Thuin|2019-01-01|9999-12-31|BE32D|4
+56086|56086|Ham-sur-Heure-Nalinnes|Ham-sur-Heure-Nalinnes|Ham-sur-Heure-Nalinnes|Ham-sur-Heure-Nalinnes|2019-01-01|9999-12-31|BE32D|4
+56088|56088|Sivry-Rance|Sivry-Rance|Sivry-Rance|Sivry-Rance|2019-01-01|9999-12-31|BE32D|4
+57003|57003|Antoing|Antoing|Antoing|Antoing|2019-01-01|9999-12-31|BE328|4
+57018|57018|Celles (Tournai)|Celles (Tournai)|Celles (Tournai)|Celles (Doornik)|2019-01-01|9999-12-31|BE328|4
+57027|57027|Estaimpuis|Estaimpuis|Estaimpuis|Estaimpuis|2019-01-01|9999-12-31|BE328|4
+57062|57062|Pecq|Pecq|Pecq|Pecq|2019-01-01|9999-12-31|BE328|4
+57064|57064|Péruwelz|Péruwelz|Péruwelz|Péruwelz|2019-01-01|9999-12-31|BE328|4
+57072|57072|Rumes|Rumes|Rumes|Rumes|2019-01-01|9999-12-31|BE328|4
+57081|57081|Tournai|Tournai|Tournai|Doornik|2019-01-01|9999-12-31|BE328|4
+57093|57093|Brunehaut|Brunehaut|Brunehaut|Brunehaut|2019-01-01|9999-12-31|BE328|4
+57094|57094|Leuze-en-Hainaut|Leuze-en-Hainaut|Leuze-en-Hainaut|Leuze-en-Hainaut|2019-01-01|9999-12-31|BE328|4
+57095|57095|Mont-de-l’Enclus|Mont-de-l’Enclus|Mont-de-l’Enclus|Mont-de-l’Enclus|2019-01-01|9999-12-31|BE328|4
+57096|57096|Mouscron|Mouscron|Mouscron|Moeskroen|2019-01-01|9999-12-31|BE328|4
+57097|57097|Comines-Warneton|Comines-Warneton|Comines-Warneton|Komen-Waasten|2019-01-01|9999-12-31|BE328|4
+58001|58001|La Louvière|La Louvière|La Louvière|La Louvière|2019-01-01|9999-12-31|BE329|4
+58002|58002|Binche|Binche|Binche|Binche|2019-01-01|9999-12-31|BE329|4
+58003|58003|Estinnes|Estinnes|Estinnes|Estinnes|2019-01-01|9999-12-31|BE329|4
+58004|58004|Morlanwelz|Morlanwelz|Morlanwelz|Morlanwelz|2019-01-01|9999-12-31|BE329|4
+71002|71002|As|As|As|As|2019-01-01|9999-12-31|BE224|4
+71004|71004|Beringen|Beringen|Beringen|Beringen|2019-01-01|9999-12-31|BE224|4
+71011|71011|Diepenbeek|Diepenbeek|Diepenbeek|Diepenbeek|2019-01-01|9999-12-31|BE224|4
+71016|71016|Genk|Genk|Genk|Genk|2019-01-01|9999-12-31|BE224|4
+71017|71017|Gingelom|Gingelom|Gingelom|Gingelom|2019-01-01|9999-12-31|BE224|4
+71020|71020|Halen|Halen|Halen|Halen|2019-01-01|9999-12-31|BE224|4
+71022|71022|Hasselt|Hasselt|Hasselt|Hasselt|2019-01-01|9999-12-31|BE224|4
+71024|71024|Herk-de-Stad|Herk-de-Stad|Herck-la-Ville|Herk-de-Stad|2019-01-01|9999-12-31|BE224|4
+71034|71034|Leopoldsburg|Leopoldsburg|Bourg-Léopold|Leopoldsburg|2019-01-01|9999-12-31|BE224|4
+71037|71037|Lummen|Lummen|Lummen|Lummen|2019-01-01|9999-12-31|BE224|4
+71045|71045|Nieuwerkerken (Hasselt)|Nieuwerkerken (Hasselt)|Nieuwerkerken (Hasselt)|Nieuwerkerken (Hasselt)|2019-01-01|9999-12-31|BE224|4
+71053|71053|Sint-Truiden|Sint-Truiden|Saint-Trond|Sint-Truiden|2019-01-01|9999-12-31|BE224|4
+71057|71057|Tessenderlo|Tessenderlo|Tessenderlo|Tessenderlo|2019-01-01|9999-12-31|BE224|4
+71066|71066|Zonhoven|Zonhoven|Zonhoven|Zonhoven|2019-01-01|9999-12-31|BE224|4
+71067|71067|Zutendaal|Zutendaal|Zutendaal|Zutendaal|2019-01-01|9999-12-31|BE224|4
+71069|71069|Ham|Ham|Ham|Ham|2019-01-01|9999-12-31|BE224|4
+71070|71070|Heusden-Zolder|Heusden-Zolder|Heusden-Zolder|Heusden-Zolder|2019-01-01|9999-12-31|BE224|4
+72003|72003|Bocholt|Bocholt|Bocholt|Bocholt|2019-01-01|9999-12-31|BE225|4
+72004|72004|Bree|Bree|Bree|Bree|2019-01-01|9999-12-31|BE225|4
+72018|72018|Kinrooi|Kinrooi|Kinrooi|Kinrooi|2019-01-01|9999-12-31|BE225|4
+72020|72020|Lommel|Lommel|Lommel|Lommel|2019-01-01|9999-12-31|BE225|4
+72021|72021|Maaseik|Maaseik|Maaseik|Maaseik|2019-01-01|9999-12-31|BE225|4
+72030|72030|Peer|Peer|Peer|Peer|2019-01-01|9999-12-31|BE225|4
+72037|72037|Hamont-Achel|Hamont-Achel|Hamont-Achel|Hamont-Achel|2019-01-01|9999-12-31|BE225|4
+72038|72038|Hechtel-Eksel|Hechtel-Eksel|Hechtel-Eksel|Hechtel-Eksel|2019-01-01|9999-12-31|BE225|4
+72039|72039|Houthalen-Helchteren|Houthalen-Helchteren|Houthalen-Helchteren|Houthalen-Helchteren|2019-01-01|9999-12-31|BE225|4
+72041|72041|Dilsen-Stokkem|Dilsen-Stokkem|Dilsen-Stokkem|Dilsen-Stokkem|2019-01-01|9999-12-31|BE225|4
+72042|72042|Oudsbergen|Oudsbergen|Oudsbergen|Oudsbergen|2019-01-01|9999-12-31|BE225|4
+72043|72043|Pelt|Pelt|Pelt|Pelt|2019-01-01|9999-12-31|BE225|4
