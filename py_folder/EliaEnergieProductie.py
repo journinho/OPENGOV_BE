@@ -49,14 +49,14 @@ downloadFile(url, fileName, True)
 
 # Replace Fuel codes with these human readable names
 FuelTypes = {
-    "CP": "Coal Pulverized",
-    "LF": "Liquid Fuel",
-    "NG": "Natural Gas",
-    "NU": "Nuclear",
-    "SO": "Solar",
+    "CP": "Steenkool",
+    "LF": "Olie",
+    "NG": "Aardgas",
+    "NU": "Nucleair",
+    "SO": "Zon",
     "WA": "Water",
     "WI": "Wind",
-    "OTHER": "Other"
+    "OTHER": "Ander"
 }
 # Replace weekday number with these names
 weekDagen = ("Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag")
