@@ -56,7 +56,7 @@ FuelTypes = {
     "SO": "Zon",
     "WA": "Water",
     "WI": "Wind",
-    "OTHER": "Ander"
+    "Other": "Ander"
 }
 # Replace weekday number with these names
 weekDagen = ("Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag")
