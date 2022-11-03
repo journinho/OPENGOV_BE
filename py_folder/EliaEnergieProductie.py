@@ -99,7 +99,7 @@ dfPivotYearMonthFuel.to_csv(f"{outputPath}energyProductionPerFueltypeOverTimeMon
 # Weekdays
 dfPivotWeekdayFuel = pd.pivot_table(df, columns=["Fuel code"], values="Generated Power", aggfunc=["mean"], index="WeekdayNumber")
 dfPivotWeekdayFuel.columns = dfPivotWeekdayFuel.columns.get_level_values(1)
-dfPivotWeekdayFuel["WeekdayName"] = dfPivotWeekdayFuel.index.map(lambda n: weekDagen[n])
-dfPivotWeekdayFuel.set_index('WeekdayName', inplace=True)
+dfPivotWeekdayFuel["Weekdag"] = dfPivotWeekdayFuel.index.map(lambda n: weekDagen[n])
+dfPivotWeekdayFuel.set_index('Weekdag', inplace=True)
 # Output to CSV
 dfPivotWeekdayFuel.to_csv(f"{outputPath}energyProductionPerFueltypeWeekdays.csv")
