@@ -1,0 +1,42 @@
+{'metadata': {'data': {'changes': [], 'transpose': False, 'vertical-header': True, 'horizontal-header': True
+        }, 'describe': {'source-name': 'VMM', 'source-url': '', 'intro': 'Vlaams Gewest,
+            2015-2021, aantal', 'byline': '', 'aria-description': '', 'number-format': '-', 'number-divisor': 0, 'number-append': '', 'number-prepend': '', 'hide-title': False
+        }, 'visualize': {'dark-mode-invert': True, 'highlighted-series': [], 'highlighted-values': [], 'sharing': {'enabled': True, 'url': '', 'auto': True
+            }, 'x-grid': 'off', 'y-grid': 'on', 'scale-y': 'linear', 'sort-by': 'first', 'category': 'direct', 'labeling': 'right', 'overlays': [], 'color-key': True, 'normalize': False, 'base-color': 0, 'grid-lines': 'show', 'bar-padding': 60, 'label-space': 30, 'line-dashes': [], 'line-widths': [], 'sort-values': False, 'valueLabels': {'show': 'hover', 'enabled': True, 'placement': 'outside'
+            }, 'yAxisLabels': {'enabled': True, 'alignment': 'left', 'placement': 'outside'
+            }, 'connect-bars': False, 'custom-range': ['', '3500'
+            ], 'custom-ticks': '500,
+            1000,
+            1500,
+            2000,
+            2500,
+            3000,
+            3500', 'disable-tabs': False, 'grid-lines-x': {'type': 'ticks', 'enabled': False
+            }, 'label-colors': False, 'label-margin': 0, 'line-symbols': False, 'totalsLabels': False, 'custom-colors': {}, 'interpolation': 'linear', 'reverse-order': False, 'rotate-labels': 'auto', 'show-tooltips': True, 'x-grid-format': 'YYYY', 'x-tick-format': 'auto', 'y-grid-format': 'auto', 'y-grid-labels': 'auto', 'absolute-scale': False, 'categoryLabels': {'enabled': True, 'position': 'color-key'
+            }, 'chart-type-set': True, 'custom-range-x': ['', ''
+            ], 'custom-range-y': ['', ''
+            ], 'custom-ticks-x': '', 'custom-ticks-y': '', 'negative-color': False, 'series-padding': 60, 'show-color-key': False, 'use-line-color': False, 'connector-lines': True, 'line-symbols-on': 'both', 'text-annotations': [], 'tooltip-x-format': 'll', 'y-grid-subdivide': True, 'custom-area-fills': [], 'line-symbols-size': 3.5, 'line-value-labels': False, 'range-annotations': [], 'line-symbols-shape': 'circle', 'y-grid-label-align': 'left', 'line-symbols-opacity': 1, 'tooltip-number-format': '0,0.[
+                00
+            ]', 'tooltip-use-custom-formats': False, 'line-symbols-shape-multiple': []
+        }, 'axes': {'x': 'X.1'
+        }, 'publish': {'embed-width': 599, 'embed-height': 391, 'blocks': {'logo': {'enabled': False
+                }, 'embed': False, 'download-pdf': False, 'download-svg': False, 'get-the-data': False, 'download-image': False
+            }, 'export-pdf': {}, 'embed-codes': {'embed-method-iframe': '<iframe title="Afsluitingen en begrenzingen van drinkwater na LAC-beslissing" aria-label="Stacked Column Chart" id="datawrapper-chart-9lnFC" src="https://datawrapper.dwcdn.net/9lnFC/2/" scrolling="no" frameborder="0" style="border: none;" width="599" height="391"></iframe>', 'embed-method-responsive': '<iframe title="Afsluitingen en begrenzingen van drinkwater na LAC-beslissing" aria-label="Stacked Column Chart" id="datawrapper-chart-9lnFC" src="https://datawrapper.dwcdn.net/9lnFC/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="391"></iframe><script type="text/javascript">!function(){
+                    "use strict";window.addEventListener("message",(function(e){if(void 0!==e.data[
+                            "datawrapper-height"
+                        ]){var t=document.querySelectorAll("iframe");for(var a in e.data[
+                                "datawrapper-height"
+                            ])for(var r=0;r<t.length;r++){if(t[r
+                                ].contentWindow===e.source)t[r
+                                ].style.height=e.data[
+                                    "datawrapper-height"
+                                ][a
+                                ]+"px"
+                            }
+                        }
+                    }))
+                }();\n</script>'
+            }, 'chart-height': 286
+        }, 'annotate': {'notes': ''
+        }, 'custom': {}, 'json_error': None
+    }, 'title': 'Afsluitingen en begrenzingen van drinkwater na LAC-beslissing', 'readonlyKeys': [], 'thumbnails': {'full': ' //img.datawrapper.de/9lnFC/5e187fda94a1b0c410b953fb4f6e7a78/full.png', 'plain': '//img.datawrapper.de/9lnFC/5e187fda94a1b0c410b953fb4f6e7a78/plain.png'}, 'publicId': '9lnFC', 'language': 'nl-NL', 'theme': 'statistics-flanders', 'authorId': 129187, 'createdAt': '2022-10-04T08:10:31.000Z', 'externalData': None, 'forkable': False, 'forkedFrom': 'ZoBDC', 'id': '9lnFC', 'isFork': False, 'lastEditStep': 5, 'lastModifiedAt': '2022-10-11T10:00:03.000Z', 'organizationId': 'statistiekvlaanderen', 'publicUrl': 'https://datawrapper.dwcdn.net/9lnFC/2/', 'publicVersion': 2, 'publishedAt': '2022-10-11T10:00:03.000Z', 'type': 'stacked-column-chart', 'customFields': {}, 'folderId': 120587, 'url': '/v3/charts/9lnFC'}
