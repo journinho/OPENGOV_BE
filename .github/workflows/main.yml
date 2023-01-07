@@ -22,6 +22,10 @@ jobs:
       - name: 💿 Install Requirements                             
         run: pip install -r requirements.txt
       - name: 🍳 Update dataset
+        env:
+          apiKey: '${{secrets.APIKEY}}'
+          apiURLScript: '${{secrets.APIURLSCRIPT}}'
+          apiURLFile: '${{secrets.APIURLFILE}}'
         run: bash main.sh
       - name: 🚀 Commit and push if it changed
         run: |

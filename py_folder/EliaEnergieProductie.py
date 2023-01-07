@@ -49,14 +49,14 @@ downloadFile(url, fileName, True)
 
 # Replace Fuel codes with these human readable names
 FuelTypes = {
-    "CP": "Coal Pulverized",
-    "LF": "Liquid Fuel",
-    "NG": "Natural Gas",
-    "NU": "Nuclear",
-    "SO": "Solar",
+    "CP": "Steenkool",
+    "LF": "Olie",
+    "NG": "Aardgas",
+    "NU": "Nucleair",
+    "SO": "Zon",
     "WA": "Water",
     "WI": "Wind",
-    "OTHER": "Other"
+    "Other": "Ander"
 }
 # Replace weekday number with these names
 weekDagen = ("Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag")
@@ -99,7 +99,7 @@ dfPivotYearMonthFuel.to_csv(f"{outputPath}energyProductionPerFueltypeOverTimeMon
 # Weekdays
 dfPivotWeekdayFuel = pd.pivot_table(df, columns=["Fuel code"], values="Generated Power", aggfunc=["mean"], index="WeekdayNumber")
 dfPivotWeekdayFuel.columns = dfPivotWeekdayFuel.columns.get_level_values(1)
-dfPivotWeekdayFuel["WeekdayName"] = dfPivotWeekdayFuel.index.map(lambda n: weekDagen[n])
-dfPivotWeekdayFuel.set_index('WeekdayName', inplace=True)
+dfPivotWeekdayFuel["Weekdag"] = dfPivotWeekdayFuel.index.map(lambda n: weekDagen[n])
+dfPivotWeekdayFuel.set_index('Weekdag', inplace=True)
 # Output to CSV
 dfPivotWeekdayFuel.to_csv(f"{outputPath}energyProductionPerFueltypeWeekdays.csv")

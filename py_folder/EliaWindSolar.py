@@ -47,6 +47,7 @@ fileName = "ods031.csv"
 downloadFile(url, fileName, True)
 # Read file as dataframe
 dfWind = pd.read_csv(f"{sourcePath}{fileName}.gz", sep=";", compression="gzip")
+dfWind.rename(columns={'measured': 'MW'}, inplace = True)
 
 # Download file and store in sourcePath
 url = "https://opendata.elia.be/explore/dataset/ods032/download/?format=csv&timezone=Europe/Brussels&lang=nl&uselabelsforheader=true&csvseparator=%3B"
@@ -54,13 +55,14 @@ fileName = "ods032.csv"
 downloadFile(url, fileName, True)
 # Read file as dataframe
 dfSolar = pd.read_csv(f"{sourcePath}{fileName}.gz", sep=";", compression="gzip")
+dfSolar.rename(columns={'measured': 'MW'}, inplace = True)
 
 
 # Drop columns we do not use
 dfWind.drop(["offshoreonshore", "gridconnectiontype", "mostrecentforecast", "mostrecentconfidence10", "mostrecentconfidence90", "dayahead11hforecast", "dayahead11hconfidence10", "dayahead11hconfidence90", "dayaheadforecast", "dayaheadconfidence10", "dayaheadconfidence90", "weekaheadforecast", "weekaheadconfidence10", "weekaheadconfidence90", "monitoredcapacity", "loadfactor", "decrementalbidid"], axis=1, inplace=True)
 dfWind["Type"] = "Wind"
 dfSolar.drop(["mostrecentforecast", "dayahead11hforecast", "dayaheadforecast", "weekaheadforecast", "monitoredcapacity", "loadfactor"], axis=1, inplace=True)
-dfSolar["Type"] = "Solar"
+dfSolar["Type"] = "Zon"
 # Drop rows with no "measured" values (original files also contain predicted values. Those do not have measured values.)
 dfWind.dropna(inplace=True)
 dfSolar.dropna(inplace=True)
@@ -79,13 +81,12 @@ dfSolar["Month"] = dfSolar["datetime"].dt.month
 dfSolar["YearMonth"] = [datetime.date(i[0], i[1], 15) for i in zip(dfSolar["Year"], dfSolar["Month"])]
 
 dfWindSolar = pd.concat([dfWind, dfSolar])
-dfWindSolar
 
 # Daily numbers
-dfPivotDateWind = pd.pivot_table(dfWind, values="measured", aggfunc=["mean"], index="Date")
+dfPivotDateWind = pd.pivot_table(dfWind, values="MW", aggfunc=["mean"], index="Date")
 dfPivotDateWind.columns = dfPivotDateWind.columns.get_level_values(1)
 # Monthly numbers
-dfPivotYearMonthWind = pd.pivot_table(dfWind, values="measured", aggfunc=["mean"], index="YearMonth")
+dfPivotYearMonthWind = pd.pivot_table(dfWind, values="MW", aggfunc=["mean"], index="YearMonth")
 dfPivotYearMonthWind.columns = dfPivotYearMonthWind.columns.get_level_values(1)
 
 # Output to CSV
@@ -95,10 +96,10 @@ dfPivotYearMonthWind.to_csv(f"{outputPath}energyProductionWindOverTimeMonthly.cs
 
 
 # Daily numbers
-dfPivotDateSolar = pd.pivot_table(dfSolar, values="measured", aggfunc=["mean"], index="Date")
+dfPivotDateSolar = pd.pivot_table(dfSolar, values="MW", aggfunc=["mean"], index="Date")
 dfPivotDateSolar.columns = dfPivotDateSolar.columns.get_level_values(1)
 # Monthly numbers
-dfPivotYearMonthSolar = pd.pivot_table(dfSolar, values="measured", aggfunc=["mean"], index="YearMonth")
+dfPivotYearMonthSolar = pd.pivot_table(dfSolar, values="MW", aggfunc=["mean"], index="YearMonth")
 dfPivotYearMonthSolar.columns = dfPivotYearMonthSolar.columns.get_level_values(1)
 
 # Output to CSV
@@ -107,10 +108,10 @@ dfPivotDateSolar.tail(365).to_csv(f"{outputPath}energyProductionSolarOverTimeDai
 dfPivotYearMonthSolar.to_csv(f"{outputPath}energyProductionSolarOverTimeMonthly.csv")
 
 # Daily numbers
-dfPivotDateWindSolar = pd.pivot_table(dfWindSolar, columns=["Type"], values="measured", aggfunc=["mean"], index="Date")
+dfPivotDateWindSolar = pd.pivot_table(dfWindSolar, columns=["Type"], values="MW", aggfunc=["mean"], index="Date")
 dfPivotDateWindSolar.columns = dfPivotDateWindSolar.columns.get_level_values(1)
 # Monthly numbers
-dfPivotYearMonthWindSolar = pd.pivot_table(dfWindSolar, columns=["Type"], values="measured", aggfunc=["mean"], index="YearMonth")
+dfPivotYearMonthWindSolar = pd.pivot_table(dfWindSolar, columns=["Type"], values="MW", aggfunc=["mean"], index="YearMonth")
 dfPivotYearMonthWindSolar.columns = dfPivotYearMonthWindSolar.columns.get_level_values(1)
 
 # Output to CSV
