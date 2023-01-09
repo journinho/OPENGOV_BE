@@ -2,19 +2,27 @@ import pandas as pd
 import datetime
 import os
 import sys
-import eurostat 
+import eurostat
+import utils
 
+# Metadata for this script
+scriptInfo = {
+    'scriptID': os.path.splitext(str(os.path.basename(__file__)))[0],
+    'scriptPath': str(os.path.abspath(__file__)),
+    'sourcePath': 'data/data_clean/eurostat/economy/',
+    'outputPath': 'data/data_bewerkt/eurostat/economy/',
+    'sources': [
+        'https://ec.europa.eu/eurostat/databrowser/view/PRC_HICP_MANR__custom_3761882/bookmark/table?lang=en&bookmarkId=4ad27e6f-358a-4a3d-82a0-587d69a833eb'
+        ],
+    'sourcesExplanation': [
+        'https://ec.europa.eu/eurostat/cache/metadata/en/prc_hicp_esms.htm'
+        ]
+}
+utils.saveScriptInfo(scriptInfo)
+# Create input and output folders if they do not exist
+utils.createFolder(scriptInfo['sourcePath'])
+utils.createFolder(scriptInfo['outputPath'])
 
-
-outputPath = "data/data_bewerkt/eurostat/economy/"
-sourcePath = "data/data_clean/eurostat/economy/"
-# Create folder if it does not exist
-if not os.path.exists(outputPath):
-    print("Making directory", outputPath)
-    os.makedirs(outputPath)
-if not os.path.exists(sourcePath):
-    print("Making directory", sourcePath)
-    os.makedirs(sourcePath)
 
 # create a dictionary with land codes and country names of EU27 countries in Dutch
 landcodes_EU = {'AT': 'Oostenrijk', 'BE': 'België', 'BG': 'Bulgarije', 'CY': 'Cyprus', 'CZ': 'Tsjechië', 'DE': 'Duitsland', 'DK': 'Denemarken', 'EE': 'Estland', 'ES': 'Spanje', 'FI': 'Finland', 'FR': 'Frankrijk', 'EL': 'Griekenland', 'HR': 'Kroatië', 'HU': 'Hongarije', 'IE': 'Ierland', 'IT': 'Italië', 'LT': 'Litouwen', 'LU': 'Luxemburg', 'LV': 'Letland', 'MT': 'Malta', 'NL': 'Nederland', 'PL': 'Polen', 'PT': 'Portugal', 'RO': 'Roemenië', 'SE': 'Zweden', 'SI': 'Slovenië', 'SK': 'Slowakije', 'EU27_2020': 'Europese Unie'}
@@ -26,7 +34,7 @@ landcodes = list(landcodes_EU.keys())
 code = 'PRC_HICP_MANR'
 #create a dataframe with the indicator. 
 df = eurostat.get_data_df(code)
-df.to_csv(f'{sourcePath}PRC_HICP_MANR.csv')
+df.to_csv(f"{scriptInfo['sourcePath']}PRC_HICP_MANR.csv")
 # select only the total inflation for the EU27 countries
 inflatie_eu = df.loc[df['coicop'] == 'CP00']
 
@@ -50,7 +58,9 @@ plot_data = plot_data.loc[landcodes]
 plot_data.rename(index=landcodes_EU, inplace=True)
 
 # export the data to a csv file
-plot_data.to_csv(f'{outputPath}inflatie_eu.csv')
+tableFileName = 'inflatie_eu'
+utils.saveFileInfo(scriptInfo, tableFileName)
+plot_data.to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv")
 
 # make new dataframe inflatie_bar where the index is the country name and the last column is the inflation rate of the last month. If value is NaN, then the value of the previous month is used
 inflatie_bar = pd.DataFrame()
@@ -59,4 +69,6 @@ inflatie_bar['Inflatie'] = inflatie_bar['Inflatie'].fillna(plot_data.iloc[:, -2]
 inflatie_bar['Inflatie'] = inflatie_bar['Inflatie'].fillna(plot_data.iloc[:, -3])
 
 #make a csv from inflatie_bar
-inflatie_bar.to_csv(f'{outputPath}inflatie_bar.csv')
+tableFileName = 'inflatie_bar'
+utils.saveFileInfo(scriptInfo, tableFileName)
+inflatie_bar.to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv")

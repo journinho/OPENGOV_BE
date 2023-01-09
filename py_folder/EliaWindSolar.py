@@ -1,60 +1,46 @@
 import pandas as pd
 import datetime
 import os
-import sys
-import requests
-import gzip
+import utils
 
-
-outputPath = "data/data_bewerkt/energy/"
-sourcePath = "data/data_clean/energy/"
-# Create folder if it does not exist
-if not os.path.exists(outputPath):
-    print("Making directory", outputPath)
-    os.makedirs(outputPath)
-if not os.path.exists(sourcePath):
-    print("Making directory", sourcePath)
-    os.makedirs(sourcePath)
-
-
-def downloadFile(url: str, fileName: str, asZipped: bool = True):
-    """Download a file from url and save it, optionally as a gzipped file.
-
-    :param url: url to download the file from
-    :param fileName: filename to give the downloaded file
-    :param asZipped: save it in gzipped form
-    """
-    try:
-        r = requests.get(url, allow_redirects=True)
-    except Exception as e:
-        print(f"Downloading {fileName} failed: ", e)
-        sys.exit(1)
-    try:
-        if asZipped:
-            with gzip.open(f"{sourcePath}{fileName}.gz", 'wb') as f:
-                f.write(r.content)
-        else:
-            with open(f"{sourcePath}{fileName}", 'wb') as f:
-                f.write(r.content)
-    except Exception as e:
-        print(f"Saving file {fileName} failed: ", e)
-        sys.exit(1)
+# Metadata for this script
+scriptInfo = {
+    'scriptID': os.path.splitext(str(os.path.basename(__file__)))[0],
+    'scriptPath': str(os.path.abspath(__file__)),
+    'sourcePath': 'data/data_clean/energy/',
+    'outputPath': 'data/data_bewerkt/energy/',
+    'sources': [
+        'https://opendata.elia.be/explore/dataset/ods031/download/?format=csv&timezone=Europe/Brussels&lang=nl&uselabelsforheader=true&csvseparator=%3B',
+        'https://opendata.elia.be/explore/dataset/ods032/download/?format=csv&timezone=Europe/Brussels&lang=nl&uselabelsforheader=true&csvseparator=%3B'
+        ],
+    'sourcesExplanation': [
+        'https://opendata.elia.be/explore/dataset/ods031/information/',
+        'https://opendata.elia.be/explore/dataset/ods032/information/'
+        ]
+}
+utils.saveScriptInfo(scriptInfo)
+# Create input and output folders if they do not exist
+utils.createFolder(scriptInfo['sourcePath'])
+utils.createFolder(scriptInfo['outputPath'])
 
 
 # Download file and store in sourcePath
-url = "https://opendata.elia.be/explore/dataset/ods031/download/?format=csv&timezone=Europe/Brussels&lang=nl&uselabelsforheader=true&csvseparator=%3B"
+url = scriptInfo['sources'][0]
 fileName = "ods031.csv"
-downloadFile(url, fileName, True)
+utils.downloadFile(url, scriptInfo['sourcePath'], fileName, True)
+
 # Read file as dataframe
-dfWind = pd.read_csv(f"{sourcePath}{fileName}.gz", sep=";", compression="gzip")
+dfWind = pd.read_csv(f"{scriptInfo['sourcePath']}{fileName}.gz", sep=";", compression="gzip")
 dfWind.rename(columns={'measured': 'MW'}, inplace = True)
 
+
 # Download file and store in sourcePath
-url = "https://opendata.elia.be/explore/dataset/ods032/download/?format=csv&timezone=Europe/Brussels&lang=nl&uselabelsforheader=true&csvseparator=%3B"
+url = scriptInfo['sources'][1]
 fileName = "ods032.csv"
-downloadFile(url, fileName, True)
+utils.downloadFile(url, scriptInfo['sourcePath'], fileName, True)
+
 # Read file as dataframe
-dfSolar = pd.read_csv(f"{sourcePath}{fileName}.gz", sep=";", compression="gzip")
+dfSolar = pd.read_csv(f"{scriptInfo['sourcePath']}{fileName}.gz", sep=";", compression="gzip")
 dfSolar.rename(columns={'measured': 'MW'}, inplace = True)
 
 
@@ -90,9 +76,17 @@ dfPivotYearMonthWind = pd.pivot_table(dfWind, values="MW", aggfunc=["mean"], ind
 dfPivotYearMonthWind.columns = dfPivotYearMonthWind.columns.get_level_values(1)
 
 # Output to CSV
-dfPivotDateWind.to_csv(f"{outputPath}energyProductionWindOverTimeDaily.csv")
-dfPivotDateWind.tail(365).to_csv(f"{outputPath}energyProductionWindOverTimeDaily365Days.csv")
-dfPivotYearMonthWind.to_csv(f"{outputPath}energyProductionWindOverTimeMonthly.csv")
+tableFileName = "energyProductionWindOverTimeDaily"
+utils.saveFileInfo(scriptInfo, tableFileName)
+dfPivotDateWind.to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv")
+
+tableFileName = "energyProductionWindOverTimeDaily365Days"
+utils.saveFileInfo(scriptInfo, tableFileName)
+dfPivotDateWind.tail(365).to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv")
+
+tableFileName = "energyProductionWindOverTimeMonthly"
+utils.saveFileInfo(scriptInfo, tableFileName)
+dfPivotYearMonthWind.to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv")
 
 
 # Daily numbers
@@ -103,9 +97,18 @@ dfPivotYearMonthSolar = pd.pivot_table(dfSolar, values="MW", aggfunc=["mean"], i
 dfPivotYearMonthSolar.columns = dfPivotYearMonthSolar.columns.get_level_values(1)
 
 # Output to CSV
-dfPivotDateSolar.to_csv(f"{outputPath}energyProductionSolarOverTimeDaily.csv")
-dfPivotDateSolar.tail(365).to_csv(f"{outputPath}energyProductionSolarOverTimeDaily365Days.csv")
-dfPivotYearMonthSolar.to_csv(f"{outputPath}energyProductionSolarOverTimeMonthly.csv")
+tableFileName = "energyProductionSolarOverTimeDaily"
+utils.saveFileInfo(scriptInfo, tableFileName)
+dfPivotDateSolar.to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv")
+
+tableFileName = "energyProductionSolarOverTimeDaily365Days"
+utils.saveFileInfo(scriptInfo, tableFileName)
+dfPivotDateSolar.to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv")
+
+tableFileName = "energyProductionSolarOverTimeMonthly"
+utils.saveFileInfo(scriptInfo, tableFileName)
+dfPivotYearMonthSolar.to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv")
+
 
 # Daily numbers
 dfPivotDateWindSolar = pd.pivot_table(dfWindSolar, columns=["Type"], values="MW", aggfunc=["mean"], index="Date")
@@ -115,6 +118,14 @@ dfPivotYearMonthWindSolar = pd.pivot_table(dfWindSolar, columns=["Type"], values
 dfPivotYearMonthWindSolar.columns = dfPivotYearMonthWindSolar.columns.get_level_values(1)
 
 # Output to CSV
-dfPivotDateWindSolar.to_csv(f"{outputPath}energyProductionWindSolarOverTimeDaily.csv")
-dfPivotDateWindSolar.tail(365).to_csv(f"{outputPath}energyProductionWindSolarOverTimeDaily365Days.csv")
-dfPivotYearMonthWindSolar.to_csv(f"{outputPath}energyProductionWindSolarOverTimeMonthly.csv")
+tableFileName = "energyProductionWindSolarOverTimeDaily"
+utils.saveFileInfo(scriptInfo, tableFileName)
+dfPivotDateWindSolar.to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv")
+
+tableFileName = "energyProductionWindSolarOverTimeDaily365Days"
+utils.saveFileInfo(scriptInfo, tableFileName)
+dfPivotDateWindSolar.tail(365).to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv")
+
+tableFileName = "energyProductionWindSolarOverTimeMonthly"
+utils.saveFileInfo(scriptInfo, tableFileName)
+dfPivotYearMonthWindSolar.to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv")

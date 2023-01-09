@@ -1,15 +1,29 @@
 import pandas as pd
 import os
+import utils
+
+# Metadata for this script
+scriptInfo = {
+    'scriptID': os.path.splitext(str(os.path.basename(__file__)))[0],
+    'scriptPath': str(os.path.abspath(__file__)),
+    'sourcePath': 'data/data_clean/economy/wisselkoersen/',
+    'outputPath': 'data/data_bewerkt/economy/wisselkoersen/',
+    'sources': [
+        'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip'
+        ],
+    'sourcesExplanation': [
+        'https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html'
+        ]
+}
+utils.saveScriptInfo(scriptInfo)
+# Create input and output folders if they do not exist
+utils.createFolder(scriptInfo['sourcePath'])
+utils.createFolder(scriptInfo['outputPath'])
 
 
-df_url = 'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip'
+df_url = scriptInfo['sources'][0]
 df = pd.read_csv(df_url, compression='zip', header=0, sep=',', decimal=".")
 
-outputPath = "data/data_bewerkt/economy/wisselkoersen/"
-# Create folder if it does not exist
-if not os.path.exists(outputPath):
-    print("Making directory", outputPath)
-    os.makedirs(outputPath)
 
 # sort data by date
 df = df.sort_values(by=['Date'])
@@ -26,4 +40,7 @@ for key in currency_dict:
     # rename key column to currency name
     df_temp = df_temp.rename(columns={key:currency_dict[key]})
     # set date as index
-    df_temp.to_csv(f'{outputPath}fx_hist_EUR_' + key + '.csv', index=False)
+    # Output to CSV
+    tableFileName = f'fx_hist_EUR_{key}'
+    utils.saveFileInfo(scriptInfo, tableFileName)
+    df_temp.to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv", index=False)
