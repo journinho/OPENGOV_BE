@@ -57,8 +57,6 @@ def saveScriptInfo(scriptInfo: dict):
     body = json.dumps(data)
     headers = {'Content-Type': 'application/json'}
     response = requests.post(url, headers=headers, data=body, verify=False)
-    print(response)
-    print(response.json())
 
 
 def saveFileInfo(scriptInfo: dict, tableFileName: str, description: str = ''):
@@ -78,5 +76,3 @@ def saveFileInfo(scriptInfo: dict, tableFileName: str, description: str = ''):
     body = json.dumps(data)
     headers = {'Content-Type': 'application/json'}
     response = requests.post(url, headers=headers, data=body, verify=False)
-    print(response)
-    print(response.json())
