@@ -1,0 +1,37 @@
+Grootteklasse,Jaar,Gewest,Gebruikt computers,Beschikt over internettoegang,Breedbandaansluiting,Heeft een website,"Gebruikersprofiel, account of licentie op sociale netwerken",Online bestellen of reserveren,Ontvangt bestellingen op web,Ontvangt bestellingen via EDI,Aankoop van cloudcomputingdiensten
+2-9,2019,Vlaams Gewest,0.973,0.961,0.927,0.665,0.519,0.195,0.2,0.028,
+2-9,2019,Waals Gewest,0.906,0.872,0.852,0.523,0.483,0.133,0.136,0.025,
+2-9,2019,Brussels Hoofdstedelijk Gewest,0.952,0.918,0.871,0.567,0.506,0.155,0.181,0.034,
+2-9,2020,Vlaams Gewest,,,0.892,0.703,,0.232,0.174,0.027,0.384
+2-9,2020,Waals Gewest,,,0.867,0.534,,0.118,0.121,0.028,0.153
+2-9,2020,Brussels Hoofdstedelijk Gewest,,,0.885,0.536,,0.103,0.102,0.019,0.281
+2-9,2021,Vlaams Gewest,,,,,0.571,,0.197,0.032,0.315
+2-9,2021,Waals Gewest,,,,,0.525,,0.132,0.015,0.238
+2-9,2021,Brussels Hoofdstedelijk Gewest,,,,,0.461,,0.135,0.027,0.334
+2-9,2022,Vlaams Gewest,,,,,,,,,
+2-9,2022,Waals Gewest,,,,,,,,,
+2-9,2022,Brussels Hoofdstedelijk Gewest,,,,,,,,,
+5-9,2019,Vlaams Gewest,,,,,,,,,
+5-9,2019,Waals Gewest,,,,,,,,,
+5-9,2019,Brussels Hoofdstedelijk Gewest,,,,,,,,,
+5-9,2020,Vlaams Gewest,,,,,,,,,
+5-9,2020,Waals Gewest,,,,,,,,,
+5-9,2020,Brussels Hoofdstedelijk Gewest,,,,,,,,,
+5-9,2021,Vlaams Gewest,,,,,,,,,
+5-9,2021,Waals Gewest,,,,,,,,,
+5-9,2021,Brussels Hoofdstedelijk Gewest,,,,,,,,,
+5-9,2022,Vlaams Gewest,,,0.869,,,,0.222,0.025,
+5-9,2022,Waals Gewest,,,0.914,,,,0.159,0.023,
+5-9,2022,Brussels Hoofdstedelijk Gewest,,,0.866,,,,0.21,0.026,
+10+,2019,Vlaams Gewest,1.0,0.996,0.984,0.897,0.711,0.27,0.244,0.117,
+10+,2019,Waals Gewest,1.0,0.989,0.977,0.808,0.683,0.219,0.222,0.077,
+10+,2019,Brussels Hoofdstedelijk Gewest,1.0,0.993,0.987,0.823,0.643,0.322,0.307,0.087,
+10+,2020,Vlaams Gewest,,,0.991,0.902,,0.242,0.213,0.112,0.566
+10+,2020,Waals Gewest,,,0.994,0.787,,0.202,0.167,0.096,0.448
+10+,2020,Brussels Hoofdstedelijk Gewest,,,0.988,0.83,,0.301,0.265,0.111,0.523
+10+,2021,Vlaams Gewest,,,,,0.767,,0.265,0.122,0.584
+10+,2021,Waals Gewest,,,,,0.67,,0.203,0.069,0.378
+10+,2021,Brussels Hoofdstedelijk Gewest,,,,,0.735,,0.284,0.093,0.552
+10+,2022,Vlaams Gewest,,,0.957,,,,0.261,0.14,
+10+,2022,Waals Gewest,,,0.99,,,,0.16,0.062,
+10+,2022,Brussels Hoofdstedelijk Gewest,,,0.972,,,,0.249,0.107,

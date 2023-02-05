@@ -1,0 +1,40 @@
+Karakteristieken,Jaar,Land,Armoederisico (AR),Subjectief armoederisico,AR voor sociale transfers,AR voor soc trans exc pensioen
+Totaal,2018,België,0.164,0.192,0.419,0.253
+Mannen,2018,België,0.156,0.183,0.394,0.245
+Vrouwen,2018,België,0.171,0.2,0.444,0.261
+0-15,2018,België,0.199,0.237,0.301,0.296
+16-24,2018,België,0.205,0.229,0.342,0.327
+25-49,2018,België,0.143,0.189,0.244,0.223
+50-64,2018,België,0.145,0.182,0.398,0.277
+65+,2018,België,0.166,0.14,0.923,0.194
+"2 volwassenen, beiden <65 jaar",2018,België,0.094,0.124,0.272,0.193
+"2 volwassenen, minstens één is 65+ jaar",2018,België,0.155,0.113,0.908,0.199
+Andere huishoudens zonder afhankelijke kinderen,2018,België,0.047,0.124,0.302,0.119
+Totaal geen afhankelijke kinderen,2018,België,0.149,0.162,0.562,0.222
+"Alleenstaande ouders, minstens één afhankelijk kind",2018,België,0.399,0.458,0.604,0.588
+"2 volwassenen, 1 afhankelijk kind",2018,België,0.122,0.138,0.2,0.195
+"2 volwassenen, 2 afhankelijke kinderen",2018,België,0.099,0.137,0.169,0.164
+"2 volwassenen, 3+ afhankelijke kinderen",2018,België,0.24,0.266,0.348,0.348
+Andere huishoudens met afhankelijke kinderen,2018,België,0.14,0.208,0.321,0.278
+Totaal met afhankelijke kinderen,2018,België,0.18,0.219,0.295,0.284
+"Alleenstaande, man <65 jaar",2018,België,0.252,0.265,0.412,0.373
+"Alleenstaande, vrouw <65 jaar",2018,België,0.278,0.323,0.467,0.406
+"Alleenstaande, man  65+ jaar",2018,België,0.19,0.188,0.974,0.205
+"Alleenstaande, vrouw 65+ jaar",2018,België,0.205,0.191,0.982,0.207
+Totaal alleenstaanden,2018,België,0.238,0.249,0.651,0.315
+Eigenaars,2018,België,0.09,0.109,0.344,0.16
+Huurders,2018,België,0.371,0.422,0.629,0.514
+Werkenden,2018,België,0.051,0.108,0.121,0.097
+Werklozen,2018,België,0.505,0.499,0.808,0.761
+Gepensioneerden,2018,België,0.141,0.139,0.906,0.189
+Andere niet-actieven,2018,België,0.344,0.331,0.598,0.534
+Opleidingsniveau: laag,2018,België,0.281,0.297,0.696,0.412
+Opleidingsniveau: gemiddelde,2018,België,0.145,0.181,0.427,0.246
+Opleidingsniveau: hoog,2018,België,0.065,0.081,0.266,0.104
+Huishoudens zonder kinderen: W=0,2018,België,0.598,0.56,0.96,0.877
+Huishoudens zonder kinderen: 0<W<1,2018,België,0.062,0.134,0.206,0.144
+Huishoudens zonder kinderen: W=1,2018,België,0.033,0.072,0.063,0.036
+Huishoudens met kinderen: W=0,2018,België,0.827,0.779,0.989,0.987
+"Huishoudens met kinderen: 0<W<0,5",2018,België,0.359,0.391,0.742,0.71
+"Huishoudens met kinderen: 0,5<=W<1",2018,België,0.103,0.153,0.213,0.207
+Huishoudens met kinderen: W=1,2018,België,0.046,0.096,0.071,0.065

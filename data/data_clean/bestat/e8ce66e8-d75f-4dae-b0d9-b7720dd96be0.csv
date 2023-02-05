@@ -1,0 +1,39 @@
+Indicator Groep,Indicator Niveau 1,Indicator Niveau 2,Product Groep,Kiloton olie equivalent (ovw)
+Totale energievoorziening,Invoer,,Elektriciteit,1306.414
+Totale energievoorziening,Uitvoer,,Elektriciteit,-1983.672
+Totale energievoorziening,,,Elektriciteit,-677.257
+Transformatie input,Productie van elektriciteit en warmte,,Elektriciteit,105.761
+Transformatie input,,,Elektriciteit,105.761
+Transformatie output,Productie van elektriciteit en warmte,,Elektriciteit,8638.469
+Transformatie output,,,Elektriciteit,8638.469
+Energie sector,Productie van elektriciteit en warmte,,Elektriciteit,330.206
+Energie sector,Olieraffinaderijen,,Elektriciteit,136.285
+Energie sector,Liquefactie (LNG) en hervergassingsinstallaties,,Elektriciteit,4.987
+Energie sector,Niet gespecifieerd Energie sector,,Elektriciteit,5.46
+Energie sector,,,Elektriciteit,476.939
+Distributieverliezen,,,Elektriciteit,310.077
+Finale consumptie,Industrie sector,IJzer en staal,Elektriciteit,367.67
+Finale consumptie,Industrie sector,Chemie en petrochemie,Elektriciteit,1266.062
+Finale consumptie,Industrie sector,Non ferro metalen,Elektriciteit,178.822
+Finale consumptie,Industrie sector,Niet-metaalhoudende mineralen,Elektriciteit,180.232
+Finale consumptie,Industrie sector,Transportmaterialen,Elektriciteit,64.463
+Finale consumptie,Industrie sector,Machinerie,Elektriciteit,126.294
+Finale consumptie,Industrie sector,Extractieve industrie,Elektriciteit,36.44
+Finale consumptie,Industrie sector,"Voeding, dranken en tabak",Elektriciteit,518.169
+Finale consumptie,Industrie sector,"Papier, pulp en drukkerij",Elektriciteit,160.86
+Finale consumptie,Industrie sector,Hout en houtproducten,Elektriciteit,69.028
+Finale consumptie,Industrie sector,Bouw,Elektriciteit,84.867
+Finale consumptie,Industrie sector,Textiel en leer,Elektriciteit,80.834
+Finale consumptie,Industrie sector,Niet gespecifieerd Industrie,Elektriciteit,153.783
+Finale consumptie,Industrie sector,,Elektriciteit,3287.524
+Finale consumptie,Transport sector,Spoorverkeer,Elektriciteit,130.98
+Finale consumptie,Transport sector,Wegverkeer,Elektriciteit,21.874
+Finale consumptie,Transport sector,Transport via pijpleiding,Elektriciteit,3.233
+Finale consumptie,Transport sector,,Elektriciteit,156.088
+Finale consumptie,Andere sectoren,Publieke en commerciële diensten,Elektriciteit,1752.072
+Finale consumptie,Andere sectoren,Huishoudens,Elektriciteit,1656.707
+Finale consumptie,Andere sectoren,Land- en bosbouw,Elektriciteit,139.647
+Finale consumptie,Andere sectoren,Niet gespecifieerd Andere sectoren,Elektriciteit,3.852
+Finale consumptie,Andere sectoren,,Elektriciteit,3552.279
+Finale consumptie,,,Elektriciteit,6995.89
+Statistisch verschil,,,Elektriciteit,72.545

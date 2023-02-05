@@ -1,0 +1,32 @@
+Productgroep,Product,Dag,Prijs excl. BTW,Prijswijziging excl. BTW,Prijs incl. BTW
+Benzines,Benzine 95 RON E5 (€/L),06feb23,1.49,,1.803
+Benzines,Benzine 95 RON E10 (€/L),06feb23,1.458,,1.764
+Benzines,Benzine 98 RON E5 (€/L),06feb23,1.604,,1.941
+Benzines,Benzine 98 RON E10 (€/L),06feb23,1.574,,1.904
+Gasolie Diesel wegvervoer,Diesel B7 (€/L),06feb23,1.472,,1.781
+Gasolie Diesel wegvervoer,Diesel B10 (€/L),06feb23,1.46,,1.766
+Gasolie Diesel wegvervoer,Diesel B20 (€/L),06feb23,1.484,,1.795
+Gasolie Diesel wegvervoer,Diesel B30 (€/L),06feb23,1.538,,1.861
+Gasolie Diesel wegvervoer,Diesel XTL (€/L),06feb23,2.396,,2.899
+Gasolie Diesel (verwarmingsdoeleinden),Gasolie Diesel Verwarming (vanaf 2000 l) (€/L),06feb23,0.801,,0.969
+Gasolie Diesel (verwarmingsdoeleinden),Gasolie Diesel Verwarming (minder dan 2000 l) (€/L),06feb23,0.83,,1.004
+Gasolie Diesel (landbouw doeleinden),Gasolie Diesel Landbouw (vanaf 2000 l) (€/L),06feb23,0.782,,0.946
+Gasolie Diesel (landbouw doeleinden),Gasolie Diesel Landbouw (minder dan 2000 l) (€/L),06feb23,0.811,,0.982
+Gasolie Diesel (I&C doeleinden),Gasolie Diesel I&C (vanaf 2000 l) (€/L),06feb23,0.805,,0.974
+Gasolie Diesel (I&C doeleinden),Gasolie Diesel I&C (minder dan 2000 l) (€/L),06feb23,0.834,,1.009
+Gasolie Diesel (I&C doeleinden),Gasolie Diesel I&C (aan de pomp) (€/L),06feb23,0.917,,1.11
+Gasolie verwarming,Gasolie verwarming 50S (vanaf 2000 l) (€/L),06feb23,0.775,,0.938
+Gasolie verwarming,Gasolie verwarming 50S (minder dan 2000 l) (€/L),06feb23,0.804,,0.973
+Gasolie verwarming,Gasolie verwarming 50S (aan de pomp) (€/L),06feb23,0.892,,1.079
+Lamppetroleum,lamppetroleum (type B) (minder dan 2000 l) (€/L),06feb23,0.958,,1.159
+Lamppetroleum,lamppetroleum (type B) (vanaf 2000 l) (€/L),06feb23,0.928,,1.123
+Lamppetroleum,lamppetroleum (type B) (aan de pomp) (€/L),06feb23,1.044,,1.263
+Lamppetroleum,lamppetroleum (type C) (minder dan 2000 l) (€/L),06feb23,0.994,,1.203
+Lamppetroleum,lamppetroleum (type C) (vanaf 2000 l) (€/L),06feb23,0.965,,1.167
+Lamppetroleum,lamppetroleum (type C) (aan de pomp) (€/L),06feb23,1.079,,1.306
+Propaan,propaan (in bulk) (vanaf 2000 l) (€/L),06feb23,0.665,,0.804
+Propaan,propaan (in bulk) (minder dan 2000 l) (€/L),06feb23,0.73,,0.884
+Butaan + LPG,Autogas LPG (aan de pomp) (€/L),06feb23,0.633,,0.766
+Butaan + LPG,Autogas LPG (minder dan 2000 l) (€/L),06feb23,0.746,,0.903
+Butaan + LPG,Autogas LPG (vanaf 2000 l) (€/L),06feb23,0.68,,0.823
+Stookolie,Extra zware stookolie met 1 % S (per tankwagen) (€/T),06feb23,490.94,,594.04

@@ -1,0 +1,133 @@
+Nace,Jaar,Gewest,Gebruikt computers,Beschikt over internettoegang,Breedbandaansluiting,Heeft een website,"Gebruikersprofiel, account of licentie op sociale netwerken",Online bestellen of reserveren,Ontvangt bestellingen op web,Ontvangt bestellingen via EDI,Aankoop van cloudcomputingdiensten
+Industrie,2019,Vlaams Gewest,0.989,0.989,0.973,0.771,0.539,0.131,0.171,0.097,
+Industrie,2019,Waals Gewest,0.934,0.917,0.912,0.622,0.479,0.085,0.105,0.11,
+Industrie,2019,Brussels Hoofdstedelijk Gewest,0.941,0.856,0.797,0.595,0.346,0.1,0.175,0.14,
+Industrie,2020,Vlaams Gewest,,,0.973,0.89,,0.187,0.188,0.089,0.507
+Industrie,2020,Waals Gewest,,,0.955,0.725,,0.083,0.103,0.106,0.277
+Industrie,2020,Brussels Hoofdstedelijk Gewest,,,0.924,0.468,,0.083,0.092,0.042,0.302
+Industrie,2021,Vlaams Gewest,,,,,0.577,,0.189,0.109,0.402
+Industrie,2021,Waals Gewest,,,,,0.574,,0.224,0.09,0.215
+Industrie,2021,Brussels Hoofdstedelijk Gewest,,,,,0.541,,0.131,0.055,0.507
+Industrie,2022,Vlaams Gewest,,,0.894,,,,0.231,0.124,
+Industrie,2022,Waals Gewest,,,0.865,,,,0.19,0.082,
+Industrie,2022,Brussels Hoofdstedelijk Gewest,,,0.971,,,,0.319,0.084,
+"Elektriciteit, gas en stoom, distributie van water en afvalwaterb",2019,Vlaams Gewest,1.0,1.0,1.0,0.906,0.344,0.185,0.181,0.007,
+"Elektriciteit, gas en stoom, distributie van water en afvalwaterb",2019,Waals Gewest,1.0,1.0,1.0,0.958,0.25,0.042,0.049,0.015,
+"Elektriciteit, gas en stoom, distributie van water en afvalwaterb",2019,Brussels Hoofdstedelijk Gewest,1.0,1.0,1.0,0.875,0.692,0.333,0.283,0.308,
+"Elektriciteit, gas en stoom, distributie van water en afvalwaterb",2020,Vlaams Gewest,,,1.0,0.828,,0.12,0.057,0.033,0.492
+"Elektriciteit, gas en stoom, distributie van water en afvalwaterb",2020,Waals Gewest,,,1.0,0.597,,0.081,0.026,0.006,0.233
+"Elektriciteit, gas en stoom, distributie van water en afvalwaterb",2020,Brussels Hoofdstedelijk Gewest,,,0.9,0.9,,0.233,0.225,0.1,0.438
+"Elektriciteit, gas en stoom, distributie van water en afvalwaterb",2021,Vlaams Gewest,,,,,0.809,,0.194,0.156,0.534
+"Elektriciteit, gas en stoom, distributie van water en afvalwaterb",2021,Waals Gewest,,,,,0.735,,0.181,0.069,0.412
+"Elektriciteit, gas en stoom, distributie van water en afvalwaterb",2021,Brussels Hoofdstedelijk Gewest,,,,,0.778,,0.0,0.0,0.167
+"Elektriciteit, gas en stoom, distributie van water en afvalwaterb",2022,Vlaams Gewest,,,1.0,,,,0.201,0.085,
+"Elektriciteit, gas en stoom, distributie van water en afvalwaterb",2022,Waals Gewest,,,0.788,,,,0.315,0.054,
+"Elektriciteit, gas en stoom, distributie van water en afvalwaterb",2022,Brussels Hoofdstedelijk Gewest,,,0.818,,,,0.0,0.0,
+Bouwnijverheid,2019,Vlaams Gewest,0.994,0.982,0.964,0.797,0.517,0.079,0.093,0.006,
+Bouwnijverheid,2019,Waals Gewest,0.986,0.983,0.969,0.565,0.424,0.027,0.112,0.003,
+Bouwnijverheid,2019,Brussels Hoofdstedelijk Gewest,1.0,1.0,0.988,0.634,0.718,0.0,0.183,0.02,
+Bouwnijverheid,2020,Vlaams Gewest,,,0.908,0.779,,0.09,0.08,0.025,0.449
+Bouwnijverheid,2020,Waals Gewest,,,0.773,0.506,,0.046,0.042,0.062,0.118
+Bouwnijverheid,2020,Brussels Hoofdstedelijk Gewest,,,0.871,0.554,,0.0,0.002,0.011,0.117
+Bouwnijverheid,2021,Vlaams Gewest,,,,,0.415,,0.179,0.111,0.511
+Bouwnijverheid,2021,Waals Gewest,,,,,0.593,,0.2,0.022,0.267
+Bouwnijverheid,2021,Brussels Hoofdstedelijk Gewest,,,,,,,,,
+Bouwnijverheid,2022,Vlaams Gewest,,,0.904,,,,0.003,0.073,
+Bouwnijverheid,2022,Waals Gewest,,,1.0,,,,0.035,0.018,
+Bouwnijverheid,2022,Brussels Hoofdstedelijk Gewest,,,,,,,,,
+Groot- en detailhandel/ reparatie van auto’s en motorfietsen,2019,Vlaams Gewest,0.975,0.965,0.924,0.756,0.617,0.347,0.321,0.053,
+Groot- en detailhandel/ reparatie van auto’s en motorfietsen,2019,Waals Gewest,0.924,0.892,0.875,0.616,0.642,0.222,0.18,0.051,
+Groot- en detailhandel/ reparatie van auto’s en motorfietsen,2019,Brussels Hoofdstedelijk Gewest,0.899,0.855,0.855,0.539,0.449,0.285,0.268,0.035,
+Groot- en detailhandel/ reparatie van auto’s en motorfietsen,2020,Vlaams Gewest,,,0.926,0.774,,0.359,0.295,0.069,0.374
+Groot- en detailhandel/ reparatie van auto’s en motorfietsen,2020,Waals Gewest,,,0.924,0.63,,0.217,0.184,0.047,0.205
+Groot- en detailhandel/ reparatie van auto’s en motorfietsen,2020,Brussels Hoofdstedelijk Gewest,,,0.884,0.493,,0.213,0.186,0.084,0.279
+Groot- en detailhandel/ reparatie van auto’s en motorfietsen,2021,Vlaams Gewest,,,,,0.701,,0.098,0.057,0.529
+Groot- en detailhandel/ reparatie van auto’s en motorfietsen,2021,Waals Gewest,,,,,0.471,,0.075,0.098,0.425
+Groot- en detailhandel/ reparatie van auto’s en motorfietsen,2021,Brussels Hoofdstedelijk Gewest,,,,,0.629,,0.218,0.061,0.351
+Groot- en detailhandel/ reparatie van auto’s en motorfietsen,2022,Vlaams Gewest,,,0.992,,,,0.083,0.041,
+Groot- en detailhandel/ reparatie van auto’s en motorfietsen,2022,Waals Gewest,,,1.0,,,,0.018,0.009,
+Groot- en detailhandel/ reparatie van auto’s en motorfietsen,2022,Brussels Hoofdstedelijk Gewest,,,1.0,,,,0.064,0.05,
+Vervoer en opslag,2019,Vlaams Gewest,1.0,1.0,0.966,0.578,0.409,0.114,0.117,0.156,
+Vervoer en opslag,2019,Waals Gewest,0.915,0.883,0.798,0.489,0.3,0.232,0.222,0.016,
+Vervoer en opslag,2019,Brussels Hoofdstedelijk Gewest,1.0,0.848,0.848,0.452,0.4,0.069,0.221,0.197,
+Vervoer en opslag,2020,Vlaams Gewest,,,0.91,0.573,,0.097,0.075,0.075,0.411
+Vervoer en opslag,2020,Waals Gewest,,,0.997,0.719,,0.108,0.045,0.034,0.369
+Vervoer en opslag,2020,Brussels Hoofdstedelijk Gewest,,,0.801,0.346,,0.027,0.027,0.023,0.103
+Vervoer en opslag,2021,Vlaams Gewest,,,,,0.433,,0.022,0.022,0.431
+Vervoer en opslag,2021,Waals Gewest,,,,,0.165,,0.023,0.0,0.366
+Vervoer en opslag,2021,Brussels Hoofdstedelijk Gewest,,,,,0.92,,0.053,0.107,0.6
+Vervoer en opslag,2022,Vlaams Gewest,,,0.929,,,,0.077,0.012,
+Vervoer en opslag,2022,Waals Gewest,,,1.0,,,,0.018,0.0,
+Vervoer en opslag,2022,Brussels Hoofdstedelijk Gewest,,,1.0,,,,0.167,0.033,
+Verschaffen van accommodatie en maaltijden,2019,Vlaams Gewest,0.927,0.896,0.865,0.577,0.642,0.281,0.21,0.035,
+Verschaffen van accommodatie en maaltijden,2019,Waals Gewest,0.734,0.645,0.641,0.425,0.54,0.194,0.135,0.009,
+Verschaffen van accommodatie en maaltijden,2019,Brussels Hoofdstedelijk Gewest,1.0,0.995,0.863,0.602,0.656,0.355,0.274,0.012,
+Verschaffen van accommodatie en maaltijden,2020,Vlaams Gewest,,,0.767,0.625,,0.351,0.161,0.007,0.205
+Verschaffen van accommodatie en maaltijden,2020,Waals Gewest,,,0.79,0.423,,0.208,0.171,0.017,0.075
+Verschaffen van accommodatie en maaltijden,2020,Brussels Hoofdstedelijk Gewest,,,0.944,0.558,,0.256,0.226,0.012,0.178
+Verschaffen van accommodatie en maaltijden,2021,Vlaams Gewest,,,,,0.556,,0.118,0.015,0.324
+Verschaffen van accommodatie en maaltijden,2021,Waals Gewest,,,,,0.525,,0.1,0.004,0.253
+Verschaffen van accommodatie en maaltijden,2021,Brussels Hoofdstedelijk Gewest,,,,,0.306,,0.046,0.022,0.265
+Verschaffen van accommodatie en maaltijden,2022,Vlaams Gewest,,,0.88,,,,0.098,0.032,
+Verschaffen van accommodatie en maaltijden,2022,Waals Gewest,,,0.948,,,,0.049,0.004,
+Verschaffen van accommodatie en maaltijden,2022,Brussels Hoofdstedelijk Gewest,,,0.779,,,,0.059,0.009,
+Informatie en communicatie,2019,Vlaams Gewest,1.0,1.0,1.0,0.974,0.766,0.306,0.262,0.097,
+Informatie en communicatie,2019,Waals Gewest,1.0,1.0,1.0,0.887,0.795,0.172,0.375,0.0,
+Informatie en communicatie,2019,Brussels Hoofdstedelijk Gewest,1.0,1.0,1.0,0.834,0.708,0.294,0.316,0.016,
+Informatie en communicatie,2020,Vlaams Gewest,,,1.0,0.93,,0.146,0.25,0.064,0.845
+Informatie en communicatie,2020,Waals Gewest,,,1.0,0.698,,0.033,0.345,0.0,0.55
+Informatie en communicatie,2020,Brussels Hoofdstedelijk Gewest,,,1.0,0.826,,0.364,0.351,0.039,0.714
+Informatie en communicatie,2021,Vlaams Gewest,,,,,0.643,,0.3,0.093,0.381
+Informatie en communicatie,2021,Waals Gewest,,,,,0.579,,0.244,0.05,0.235
+Informatie en communicatie,2021,Brussels Hoofdstedelijk Gewest,,,,,0.474,,0.269,0.069,0.274
+Informatie en communicatie,2022,Vlaams Gewest,,,0.917,,,,0.324,0.071,
+Informatie en communicatie,2022,Waals Gewest,,,0.917,,,,0.228,0.069,
+Informatie en communicatie,2022,Brussels Hoofdstedelijk Gewest,,,0.826,,,,0.236,0.079,
+Exploitatie van en handel in onroerend goed,2019,Vlaams Gewest,1.0,1.0,1.0,0.809,0.638,0.166,0.251,0.075,
+Exploitatie van en handel in onroerend goed,2019,Waals Gewest,1.0,1.0,1.0,0.619,0.545,0.267,0.097,0.0,
+Exploitatie van en handel in onroerend goed,2019,Brussels Hoofdstedelijk Gewest,1.0,1.0,0.862,0.859,0.518,0.034,0.175,0.0,
+Exploitatie van en handel in onroerend goed,2020,Vlaams Gewest,,,0.966,0.627,,0.08,0.136,0.039,0.43
+Exploitatie van en handel in onroerend goed,2020,Waals Gewest,,,1.0,0.59,,0.135,0.007,0.0,0.04
+Exploitatie van en handel in onroerend goed,2020,Brussels Hoofdstedelijk Gewest,,,0.767,0.685,,0.01,0.086,0.003,0.433
+Exploitatie van en handel in onroerend goed,2021,Vlaams Gewest,,,,,0.749,,0.74,0.146,0.407
+Exploitatie van en handel in onroerend goed,2021,Waals Gewest,,,,,1.0,,0.644,0.178,0.356
+Exploitatie van en handel in onroerend goed,2021,Brussels Hoofdstedelijk Gewest,,,,,0.916,,0.916,0.316,0.518
+Exploitatie van en handel in onroerend goed,2022,Vlaams Gewest,,,0.911,,,,0.336,0.047,
+Exploitatie van en handel in onroerend goed,2022,Waals Gewest,,,1.0,,,,0.607,0.0,
+Exploitatie van en handel in onroerend goed,2022,Brussels Hoofdstedelijk Gewest,,,1.0,,,,0.768,0.133,
+Vrije beroepen en wetenschappelijke en technische activiteiten,2019,Vlaams Gewest,1.0,1.0,0.973,0.729,0.527,0.14,0.155,0.039,
+Vrije beroepen en wetenschappelijke en technische activiteiten,2019,Waals Gewest,1.0,0.97,0.956,0.559,0.344,0.088,0.137,0.032,
+Vrije beroepen en wetenschappelijke en technische activiteiten,2019,Brussels Hoofdstedelijk Gewest,0.977,0.977,0.954,0.792,0.6,0.066,0.097,0.08,
+Vrije beroepen en wetenschappelijke en technische activiteiten,2020,Vlaams Gewest,,,0.984,0.727,,0.134,0.133,0.041,0.587
+Vrije beroepen en wetenschappelijke en technische activiteiten,2020,Waals Gewest,,,0.965,0.579,,0.027,0.089,0.005,0.426
+Vrije beroepen en wetenschappelijke en technische activiteiten,2020,Brussels Hoofdstedelijk Gewest,,,0.992,0.819,,0.037,0.033,0.048,0.609
+Vrije beroepen en wetenschappelijke en technische activiteiten,2021,Vlaams Gewest,,,,,0.699,,0.241,0.0,0.089
+Vrije beroepen en wetenschappelijke en technische activiteiten,2021,Waals Gewest,,,,,0.699,,0.081,0.0,0.032
+Vrije beroepen en wetenschappelijke en technische activiteiten,2021,Brussels Hoofdstedelijk Gewest,,,,,0.699,,0.276,0.0,0.239
+Vrije beroepen en wetenschappelijke en technische activiteiten,2022,Vlaams Gewest,,,0.83,,,,0.399,0.006,
+Vrije beroepen en wetenschappelijke en technische activiteiten,2022,Waals Gewest,,,0.89,,,,0.311,0.006,
+Vrije beroepen en wetenschappelijke en technische activiteiten,2022,Brussels Hoofdstedelijk Gewest,,,0.915,,,,0.55,0.011,
+Administratieve en ondersteunende diensten,2019,Vlaams Gewest,1.0,0.992,0.945,0.579,0.452,0.109,0.207,0.003,
+Administratieve en ondersteunende diensten,2019,Waals Gewest,1.0,1.0,0.919,0.65,0.584,0.172,0.191,0.038,
+Administratieve en ondersteunende diensten,2019,Brussels Hoofdstedelijk Gewest,1.0,1.0,0.992,0.607,0.473,0.163,0.12,0.004,
+Administratieve en ondersteunende diensten,2020,Vlaams Gewest,,,0.945,0.811,,0.278,0.16,0.024,0.528
+Administratieve en ondersteunende diensten,2020,Waals Gewest,,,0.944,0.608,,0.144,0.174,0.01,0.246
+Administratieve en ondersteunende diensten,2020,Brussels Hoofdstedelijk Gewest,,,1.0,0.729,,0.214,0.163,0.031,0.342
+Administratieve en ondersteunende diensten,2021,Vlaams Gewest,,,,,0.906,,0.442,0.01,0.677
+Administratieve en ondersteunende diensten,2021,Waals Gewest,,,,,0.918,,0.556,0.0,0.384
+Administratieve en ondersteunende diensten,2021,Brussels Hoofdstedelijk Gewest,,,,,0.703,,0.252,0.029,0.548
+Administratieve en ondersteunende diensten,2022,Vlaams Gewest,,,0.912,,,,0.402,0.057,
+Administratieve en ondersteunende diensten,2022,Waals Gewest,,,1.0,,,,0.216,0.026,
+Administratieve en ondersteunende diensten,2022,Brussels Hoofdstedelijk Gewest,,,1.0,,,,0.289,0.027,
+Reparatie van computers en communicatieapparatuur,2019,Vlaams Gewest,1.0,1.0,1.0,1.0,1.0,0.564,0.462,0.0,
+Reparatie van computers en communicatieapparatuur,2019,Waals Gewest,,,,,,,,,
+Reparatie van computers en communicatieapparatuur,2019,Brussels Hoofdstedelijk Gewest,1.0,1.0,1.0,1.0,0.69,0.31,0.619,0.0,
+Reparatie van computers en communicatieapparatuur,2020,Vlaams Gewest,,,1.0,1.0,,0.0,0.04,0.0,0.152
+Reparatie van computers en communicatieapparatuur,2020,Waals Gewest,,,1.0,1.0,,0.321,0.321,0.095,0.548
+Reparatie van computers en communicatieapparatuur,2020,Brussels Hoofdstedelijk Gewest,,,,,,,,,
+Reparatie van computers en communicatieapparatuur,2021,Vlaams Gewest,,,,,0.754,,0.231,0.088,0.891
+Reparatie van computers en communicatieapparatuur,2021,Waals Gewest,,,,,0.697,,0.176,0.013,0.681
+Reparatie van computers en communicatieapparatuur,2021,Brussels Hoofdstedelijk Gewest,,,,,0.815,,0.111,0.018,0.616
+Reparatie van computers en communicatieapparatuur,2022,Vlaams Gewest,,,0.931,,,,0.327,0.087,
+Reparatie van computers en communicatieapparatuur,2022,Waals Gewest,,,0.994,,,,0.354,0.057,
+Reparatie van computers en communicatieapparatuur,2022,Brussels Hoofdstedelijk Gewest,,,0.868,,,,0.256,0.122,
