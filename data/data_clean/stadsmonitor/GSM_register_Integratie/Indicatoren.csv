@@ -1,0 +1,58 @@
+ID,Naam indicator 
+AR_04,"Kansarmoede-index Kind en Gezin, naar herkomst moeder"
+AR_07,"Personen in gezin met zeer lage werkintensiteit, naar herkomst"
+AR_14,"Personen met (equivalent) leefloon, naar herkomst"
+DE_23,Interne inwijking van vreemdelingen
+DE_24,Interne uitwijking van vreemdelingen
+DE_28,Externe inwijking van vreemdelingen
+DE_29,Externe uitwijking van vreemdelingen
+DE_37,Personen van buitenlandse herkomst excl. Nederlandse herkomst
+DE_38,"Personen van buitenlandse herkomst, naar geslacht"
+DE_39,"Personen van buitenlandse herkomst, naar leeftijd"
+DE_41,"Personen van buitenlandse herkomst, naar nationaliteitshistoriek"
+DE_43,Vreemdelingen met nationaliteit MOE-landen
+DE_44,"Vreemdelingen, naar geslacht"
+DE_45,"Vreemdelingen, naar leeftijd"
+DE_46,"Vreemdelingen, naar nationaliteit"
+DE_47,"Vreemdelingen, naar nationaliteitsgroep"
+DE_48,Vreemde nationaliteiten
+DE_50,"Meerderjarige nieuwkomers, naar geslacht"
+DE_51,"Meerderjarige nieuwkomers, naar leeftijd"
+DE_52,"Meerderjarige nieuwkomers, naar nationaliteit"
+DE_53,"Meerderjarige nieuwkomers, naar doelgroep"
+DE_54,"Meerderjarige nieuwkomers, naar statuut"
+DE_55,Inburgeraars met inburgeringsattest
+DE_56,"Inburgeraars met inburgeringsattest, naar doelgroep"
+DE_57,"Inburgeraars met inburgeringsattest, naar nationaliteit"
+DE_58,Inburgeraars met inburgeringscontract
+DE_59,"Inburgeraars met inburgeringscontract, naar doelgroep"
+DE_60,"Inburgeraars met inburgeringscontract, naar nationaliteit"
+DE_61,Inburgeraars aangemeld bij onthaalbureau
+DE_62,"Inburgeraars aangemeld bij onthaalbureau, naar doelgroep"
+DE_63,"Inburgeraars aangemeld bij onthaalbureau, naar nationaliteit"
+DE_73,Migratiesaldo van vreemdelingen
+LO_28,"Bereik niet-Belgische kiezers, naar nationaliteit"
+LO_29,Bereik niet-Belgische kiezers
+ON_15,"Schoolse vertraging lager onderwijs, naar woonplaats, naar thuistaal"
+ON_22,"Leerlingen deeltijds beroepsonderwijs, naar woonplaats, naar thuistaal"
+ON_27,"Schoolse vertraging secundair onderwijs, naar woonplaats, naar thuistaal"
+ON_32,"Vroegtijdige schoolverlaters, naar woonplaats, naar thuistaal"
+ON_37,"Deelnemers volwassenenonderwijs, naar nationaliteit, naar woonplaats"
+ON_39,"Leerlingen OKAN, naar woonplaats, naar thuistaal"
+WE_03,"Werkzaamheidsgraad, naar herkomst, naar geslacht"
+WE_04,"Werkzaamheidsgraad, naar herkomst, naar leeftijd"
+WE_10,"Werkloosheidsgraad, naar herkomst, naar geslacht"
+WE_11,"Werkloosheidsgraad, naar herkomst, naar leeftijd"
+WE_15,"Werkzoekenden zonder werk van buiten de EU-27, EVA-landen of VK"
+WE_17,"Werkzoekenden zonder werk, naar herkomst, naar scholingsgraad"
+WE_18,"Werkzoekenden zonder werk, naar herkomst, naar leeftijd"
+WE_19,"Werkzoekenden zonder werk in beroepsinschakelingstijd, naar herkomst"
+WE_21,"Langdurig werkzoekenden zonder werk, naar herkomst"
+WE_22,"Zeer langdurige werkzoekenden zonder werk, naar herkomst"
+WE_23,"Loontrekkenden en zelfstandigen, naar herkomst"
+WE_24,"Loontrekkenden, naar arbeidsregime, naar herkomst"
+WE_25,"Loontrekkenden, naar dagloonklasse, naar herkomst"
+WE_26,"Loontrekkenden, naar sector, naar herkomst"
+WO_12,"Huurders van sociale woning, naar nationaliteit"
+,
+Meer info op onze website.,
