@@ -41,7 +41,7 @@ utils.downloadFile(url, scriptInfo['sourcePath'], fileName, False)
 with open(f"{scriptInfo['sourcePath']}{fileName}") as json_file:
     gasFuturesJSON = json.load(json_file)['bars']
 gasFuturesDF = pd.DataFrame(gasFuturesJSON, columns=['Datum', 'Prijs per MWh'])
-gasFuturesDF['Datum'] = pd.to_datetime(gasFuturesDF['Datum'])
+gasFuturesDF['Datum'] = pd.to_datetime(gasFuturesDF['Datum'], format="%a %b %d %H:%M:%S %Y")
 
 
 # Output to CSV
