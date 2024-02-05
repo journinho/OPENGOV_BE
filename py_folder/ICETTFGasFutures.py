@@ -16,9 +16,10 @@ scriptInfo = {
         ],
     'sourcesExplanation': [
         'https://www.theice.com/products/27996665/Dutch-TTF-Gas-Futures/'
-        ]
+        ],
+    'sourcesName': ['ICE Endex']
 }
-utils.saveScriptInfo(scriptInfo)
+#utils.saveScriptInfo(scriptInfo)
 # Create input and output folders if they do not exist
 utils.createFolder(scriptInfo['sourcePath'])
 utils.createFolder(scriptInfo['outputPath'])
@@ -46,5 +47,5 @@ gasFuturesDF['Datum'] = pd.to_datetime(gasFuturesDF['Datum'], format="%a %b %d %
 
 # Output to CSV
 tableFileName = 'ICETTFGasFutures'
-utils.saveFileInfo(scriptInfo, tableFileName)
+#utils.saveFileInfo(scriptInfo, tableFileName)
 gasFuturesDF.to_csv(f"{scriptInfo['outputPath']}{tableFileName}.csv", index=False)

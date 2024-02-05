@@ -13,7 +13,8 @@ scriptInfo = {
         ],
     'sourcesExplanation': [
         'https://statbel.fgov.be/nl/themas/consumptieprijsindex/consumptieprijsindex#figures'
-        ]
+        ],
+    'sourcesName': ['StatBel']
 }
 utils.saveScriptInfo(scriptInfo)
 # Create input and output folders if they do not exist

@@ -14,7 +14,8 @@ scriptInfo = {
         ],
     'sourcesExplanation': [
         'https://statbel.fgov.be/nl/themas/werk-opleiding/arbeidsmarkt/werkgelegenheid-en-werkloosheid#figures'
-        ]
+        ],
+    'sourcesName': ['StatBel']
 }
 utils.saveScriptInfo(scriptInfo)
 # Create input and output folders if they do not exist

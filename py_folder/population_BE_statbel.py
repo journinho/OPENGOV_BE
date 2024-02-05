@@ -13,7 +13,8 @@ scriptInfo = {
         ],
     'sourcesExplanation': [
         'https://statbel.fgov.be/nl/themas/bevolking/structuur-van-de-bevolking#figures'
-        ]
+        ],
+    'sourcesName': ['StatBel']
 }
 utils.saveScriptInfo(scriptInfo)
 # Create input and output folders if they do not exist

@@ -16,7 +16,8 @@ scriptInfo = {
         ],
     'sourcesExplanation': [
         'https://ec.europa.eu/eurostat/cache/metadata/en/prc_hicp_esms.htm'
-        ]
+        ],
+    'sourcesName': ['Eurostat']
 }
 utils.saveScriptInfo(scriptInfo)
 # Create input and output folders if they do not exist

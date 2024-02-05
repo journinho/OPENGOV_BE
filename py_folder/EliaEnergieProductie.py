@@ -14,7 +14,8 @@ scriptInfo = {
         ],
     'sourcesExplanation': [
         'https://opendata.elia.be/explore/dataset/ods033/information/'
-        ]
+        ],
+    'sourcesName': ['Elia']
 }
 utils.saveScriptInfo(scriptInfo)
 # Create input and output folders if they do not exist
