@@ -59,7 +59,7 @@ def saveScriptInfo(scriptInfo: dict):
     response = requests.post(url, headers=headers, data=body, verify=False)
 
 
-def saveFileInfo(scriptInfo: dict, tableFileName: str, description: str = ''):
+def saveFileInfo(scriptInfo: dict, tableFileName: str, description: str = '', tags = []):
     """Create or update a Datawrapper graph and store information about the graph in a database.
 
     :param scriptInfo: dictionary with information about the script
@@ -71,7 +71,8 @@ def saveFileInfo(scriptInfo: dict, tableFileName: str, description: str = ''):
         'apiKey': os.getenv('apiKey'),
         'scriptInfo': scriptInfo,
         'tableFileName': tableFileName,
-        'description': description
+        'description': description,
+        'tags': tags
     }
     body = json.dumps(data)
     headers = {'Content-Type': 'application/json'}
