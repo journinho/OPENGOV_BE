@@ -34,7 +34,7 @@ for index, dataset in datasets.iterrows():
     # Download files and store in sourcePath
     url = scriptInfo['sources'][0] + '/catalog/datasets/' + dataset_id + '/exports/json'
     filename = f"Infrabel-{dataset_id}.json"
-    utils.downloadFile(url, scriptInfo['sourcePath'], fileName, False)
+    utils.downloadFile(url, scriptInfo['sourcePath'], filename, False)
 
 def save_to_csv(scriptInfo, df, tableFileName, description='', tags=[]):
     # print(tableFileName)
