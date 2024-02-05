@@ -4,3 +4,4 @@ requests
 eurostat
 xlrd
 python-dotenv
+markdownify
