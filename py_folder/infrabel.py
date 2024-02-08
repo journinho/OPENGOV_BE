@@ -388,7 +388,7 @@ for index, dataset in datasets.iterrows():
         df_temp = df_temp.drop(columns=['jaar', 'maanddossierniveau'])
 
         df_final = pd.pivot_table(df_temp, index=['Datum'], values='Totaal afgeschafte treinen', columns=['Entiteit'], aggfunc='sum').reset_index()
-        df_temp = df_final.fillna(0)
+        df_final = df_final.fillna(0)
         # Set the index to the date column
         df_final.set_index('Datum', inplace=True)        
         try:
@@ -401,7 +401,7 @@ for index, dataset in datasets.iterrows():
         save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
 
         df_final = pd.pivot_table(df_temp, index=['Datum'], values='Gedeeltelijk afgeschafte treinen', columns=['Entiteit'], aggfunc='sum').reset_index()
-        df_temp = df_final.fillna(0)
+        df_final = df_final.fillna(0)
         # Set the index to the date column
         df_final.set_index('Datum', inplace=True)        
         try:
