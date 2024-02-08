@@ -263,3 +263,240 @@ for index, dataset in datasets.iterrows():
         # Save result as CSV file and register in NWSify
         save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
 
+    elif dataset_id == 'verdeling-man-vrouw-van-het-personeel':
+        df_final = df_ori.copy()
+        df_final['Datum'] = pd.to_datetime([f"{row['year']}-{row['maand']}-15" for index, row in df_final.iterrows()])
+        df_final.drop(columns=['year', 'q', 'maand', 'genre', 'gender'], inplace=True)
+        df_final = pd.pivot_table(df_final, index=['Datum'], values='data', columns=['category'], aggfunc='sum').reset_index()
+        df_final = df_final.fillna(0)
+        # Set the index to the date column
+        df_final.set_index('Datum', inplace=True)        
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+    elif dataset_id == 'verdeling-van-het-personeel-per-leeftijdsgroep':
+        df_final = df_ori.copy()
+        df_final['Datum'] = pd.to_datetime([f"{row['q']}-15" for index, row in df_final.iterrows()])
+        df_final.drop(columns=['year', 'q'], inplace=True)
+        df_final = pd.pivot_table(df_final, index=['Datum'], values='data', columns=['category'], aggfunc='sum').reset_index()
+        df_final = df_final.fillna(0)
+        # Set the index to the date column
+        df_final.set_index('Datum', inplace=True)        
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+    elif dataset_id == 'verdeling-van-het-personeelsbestand-naar-type-bedrijfsactiviteit':
+        df_final = df_ori.copy()
+        df_final['Datum'] = pd.to_datetime([f"{row['q']}-15" for index, row in df_final.iterrows()])
+        df_final.drop(columns=['year', 'q', 'type_dactivite', 'activity'], inplace=True)
+        df_final = pd.pivot_table(df_final, index=['Datum'], values='data', columns=['category'], aggfunc='sum').reset_index()
+        df_final = df_final.fillna(0)
+        # Set the index to the date column
+        df_final.set_index('Datum', inplace=True)        
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+    
+    elif dataset_id == 'verdeling-van-het-personeelsbestand-volgens-het-opleidingsniveau-van-de-functie':
+        df_final = df_ori.copy()
+        df_final['Datum'] = pd.to_datetime([f"{row['q']}-15" for index, row in df_final.iterrows()])
+        df_final.drop(columns=['year', 'q', 'niveau_detude_de_la_fonction', 'niv_en'], inplace=True)
+        df_final = pd.pivot_table(df_final, index=['Datum'], values='data', columns=['category'], aggfunc='sum').reset_index()
+        df_final = df_final.fillna(0)
+        # Set the index to the date column
+        df_final.set_index('Datum', inplace=True)        
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+    elif dataset_id == 'telewerkdagen':
+        # This one has three datasets
+        df_temp = df_ori.copy()
+        df_temp.columns = ['year', 'q', 'category', 'Gemiddeld aantal telewerkdagen per telewerker', 'Totaal aantal telewerkdagen per maand', 'Totaal aantal telewerkers per maand']
+        df_temp['Datum'] = pd.to_datetime([f"{row['q']}-15" for index, row in df_temp.iterrows()])
+        
+        # Gemiddeld aantal telewerkdagen per telewerker
+        df_final = pd.pivot_table(df_temp, index=['Datum'], values='Gemiddeld aantal telewerkdagen per telewerker', columns=['category'], aggfunc='sum').reset_index()
+        df_final = df_final.fillna(0)
+        # Set the index to the date column
+        df_final.set_index('Datum', inplace=True)        
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}-gemiddeld-aantal-telewerkdagen-per-telewerker"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+        # Totaal aantal telewerkdagen per maand
+        df_final = pd.pivot_table(df_temp, index=['Datum'], values='Totaal aantal telewerkdagen per maand', columns=['category'], aggfunc='sum').reset_index()
+        df_final = df_final.fillna(0)
+        # Set the index to the date column
+        df_final.set_index('Datum', inplace=True)        
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}-totaal-aantal-telewerkdagen-per-maand"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+        # Totaal aantal telewerkdagen per maand
+        df_final = pd.pivot_table(df_temp, index=['Datum'], values='Totaal aantal telewerkers per maand', columns=['category'], aggfunc='sum').reset_index()
+        df_final = df_final.fillna(0)
+        # Set the index to the date column
+        df_final.set_index('Datum', inplace=True)        
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}-totaal-aantal-telewerkers-per-maand"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+    elif dataset_id == 'toewijzing-afgeschafte-treinen':
+        # This one has four datasets
+        df_temp = df_ori.copy()
+        df_temp.drop(columns=['entite', 'entity'], inplace=True)
+        df_temp.columns = ['jaar', 'maanddossierniveau', 'Entiteit', 'Totaal afgeschafte treinen', 'Gedeeltelijk afgeschafte treinen', 'Volledig afgeschafte treinen', 'Toewijzing in %']
+        df_temp['Datum'] = pd.to_datetime([f"{row['maanddossierniveau']}-15" for index, row in df_temp.iterrows()])
+        df_temp = df_temp.drop(columns=['jaar', 'maanddossierniveau'])
+
+        df_final = pd.pivot_table(df_temp, index=['Datum'], values='Totaal afgeschafte treinen', columns=['Entiteit'], aggfunc='sum').reset_index()
+        df_temp = df_final.fillna(0)
+        # Set the index to the date column
+        df_final.set_index('Datum', inplace=True)        
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}-totaal-afgeschafte-treinen"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+        df_final = pd.pivot_table(df_temp, index=['Datum'], values='Gedeeltelijk afgeschafte treinen', columns=['Entiteit'], aggfunc='sum').reset_index()
+        df_temp = df_final.fillna(0)
+        # Set the index to the date column
+        df_final.set_index('Datum', inplace=True)        
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}-gedeeltelijk-afgeschafte-treinen"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+        df_final = pd.pivot_table(df_temp, index=['Datum'], values='Volledig afgeschafte treinen', columns=['Entiteit'], aggfunc='sum').reset_index()
+        df_temp = df_final.fillna(0)
+        # Set the index to the date column
+        df_final.set_index('Datum', inplace=True)        
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}-volledig-afgeschafte-treinen"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+        df_final = pd.pivot_table(df_temp, index=['Datum'], values='Toewijzing in %', columns=['Entiteit'], aggfunc='sum').reset_index()
+        df_temp = df_final.fillna(0)
+        # Set the index to the date column
+        df_final.set_index('Datum', inplace=True)        
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}-toewijzing-in-procent"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+    elif dataset_id == ' toewijzingvertraging':
+        df_temp = df_ori.copy()
+        df_temp.drop(columns=['entite', 'entity'], inplace=True)
+        df_temp.columns = ['jaar', 'operator', 'maand', 'Aantal minuten toegewezen vertraging reizigerstreinen', 'Toewijzing in %']
+        df_temp['Datum'] = pd.to_datetime([f"{row['maand']}-15" for index, row in df_temp.iterrows()])
+        df_temp = df_temp.drop(columns=['jaar', 'maand'])
+
+
+        df_final = pd.pivot_table(df_temp, index=['Datum'], values='Toewijzing in %', columns=['operator'], aggfunc='sum').reset_index()
+        df_final = df_final.fillna(0)
+        df_final.set_index('Datum', inplace=True)
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}-toewijzing-in-procent"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+        df_final = pd.pivot_table(df_temp, index=['Datum'], values='Aantal minuten toegewezen vertraging reizigerstreinen', columns=['operator'], aggfunc='sum').reset_index()
+        df_final = df_final.fillna(0)
+        df_final.set_index('Datum', inplace=True)
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}-aantal-minuten-toegewezen-vertraging-reizigerstreinen"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+    elif dataset_id == 'leidinggevende-functie-naar-geslacht':
+        df_final = df_ori.copy()
+        df_final['Datum'] = pd.to_datetime([f"{row['maand']}-15" for index, row in df_final.iterrows()])
+        df_final = df_final.drop(columns=['jaar', 'maand'])
+        df_final.set_index('Datum', inplace=True)
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+    elif dataset_id == 'medewerkers':
+        df_final = df_ori.copy()
+        df_final['Datum'] = pd.to_datetime([f"{row['month']}-15" for index, row in df_final.iterrows()])
+        df_final = df_final.drop(columns=['year', 'month'])
+        df_final.set_index('Datum', inplace=True)
+        try:
+            description = markdownify.markdownify(dataset['default.description'])
+        except:
+            description = ''
+        tags = []
+        tableFileName = f"Infrabel-{dataset_id}"
+        # Save result as CSV file and register in NWSify
+        save_to_csv(scriptInfo, df_final, tableFileName, description, tags)
+
+
