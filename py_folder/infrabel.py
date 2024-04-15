@@ -51,7 +51,7 @@ for index, dataset in datasets.iterrows():
         df_ori = pd.DataFrame(json.loads(open(scriptInfo['sourcePath'] + filename).read()))
         
         # Do dataset specific stuff that leads to df_final.
-        if dataset_id == 'evolutie-van-het-aantal-overwegen':
+        if dataset_id == 'evolutie-van-het-aantal-overwegen-per-lijntype':
             df_final = pd.pivot_table(df_ori, index=['jaar'], values='aantal', columns=['type_lijn_nl'], aggfunc='sum').reset_index()
             try:
                 description = markdownify.markdownify(dataset['default.description'])
